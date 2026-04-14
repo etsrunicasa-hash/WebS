@@ -64,28 +64,6 @@ export function Hero({ locale, dictionary }: HeroProps) {
               ))}
             </div>
 
-            <div className="grid gap-4 sm:grid-cols-2">
-              {dictionary.home.hero.stats.map((item, index) => (
-                <div className="card-surface min-w-0 p-5" key={item.label}>
-                  <p
-                    className={`font-serif leading-tight tracking-[-0.04em] text-ink [overflow-wrap:anywhere] ${
-                      index === 2
-                        ? "text-[clamp(1.6rem,3.8vw,2.35rem)]"
-                        : "text-[clamp(2rem,4.6vw,3rem)]"
-                    }`}
-                  >
-                    {item.value}
-                  </p>
-                  <p
-                    className={`mt-2 uppercase tracking-[0.16em] text-ink-muted [overflow-wrap:anywhere] ${
-                      index === 2 ? "text-[0.72rem]" : "text-sm"
-                    }`}
-                  >
-                    {item.label}
-                  </p>
-                </div>
-              ))}
-            </div>
           </div>
 
           <div className="space-y-4">
