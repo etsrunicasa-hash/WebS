@@ -1,23 +1,30 @@
-export const catalogCategoryImages = [
-  "/images/IMG_0599.jpg",
-  "/images/IMG_0607.jpg",
-  "/images/IMG_0608.jpg",
-  "/images/IMG_0603.jpg",
-  "/images/IMG_0610.jpg",
-  "/images/IMG_0613.jpg",
-] as const;
+export const catalogCategoryImages = {
+  beer: "/category-images/beer.jpg",
+  wine: "/category-images/wine.jpg",
+  whisky: "/category-images/whisky.jpg",
+  arak: "/category-images/arak.jpg",
+  vodka: "/category-images/vodka.jpg",
+  spirits: "/category-images/spirits.jpg",
+} as const;
+
+export function getCatalogCategoryImage(categoryId: string) {
+  return (
+    catalogCategoryImages[categoryId as keyof typeof catalogCategoryImages] ??
+    "/category-images/beer.jpg"
+  );
+}
 
 export const homeHeroImageSets = {
   hero: [
-    "/images/IMG_0599.jpg",
-    "/images/IMG_0601.jpg",
-    "/images/IMG_0607.jpg",
+    "/home-images/heineken-home.jpg",
+    "/home-images/vitalsberg-home.jpg",
+    "/home-images/barkan-home.jpg",
   ],
   strip: [
-    "/images/IMG_0603.jpg",
-    "/images/IMG_0605.jpg",
-    "/images/IMG_0608.jpg",
-    "/images/IMG_0610.jpg",
-    "/images/IMG_0613.jpg",
+    "/home-images/arak-home.jpg",
+    "/home-images/glenscott-pour-home.jpg",
+    "/home-images/glenscott-group-home.jpg",
+    "/home-images/imperial-vodka-home.jpg",
+    "/home-images/pastis-home.jpg",
   ],
 } as const;

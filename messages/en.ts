@@ -41,13 +41,14 @@ export const en: Dictionary = {
   home: {
     hero: {
       eyebrow: "RUNI SARL | Casablanca",
-      title: "A more direct, more visual RUNI catalogue homepage ready for every range.",
+      title:
+        "A more direct, more visual RUNI catalogue structured by category and brand.",
       description:
         "The homepage now works as a stronger promotional front for RUNI, with dominant visuals and immediate access to a category-based catalogue structure.",
       primaryCta: "View catalogue",
       secondaryCta: "About RUNI",
       collageCaption:
-        "A more assertive visual direction for the RUNI brand and its future catalogue ranges.",
+        "A more assertive visual direction for the RUNI brand, its ranges, and its main references.",
       stats: [
         { value: "6", label: "Categories" },
         { value: "1984", label: "Since" },
@@ -152,11 +153,11 @@ export const en: Dictionary = {
     positioning: {
       title: "Business positioning",
       body:
-        "This website is neither a commercial catalog nor a transactional platform. Its role is to present the company, its operational references, and its public information through a strictly institutional lens.",
+        "This website presents the RUNI offer through an informational catalogue, without online sales, displayed prices, or transactional flows. Its role remains to present the company, its categories, and its public information in a structured way.",
       points: [
-        "Informational and non-transactional communication.",
-        "Neutral presentation of the company and its operating framework.",
-        "Focus on identity, experience, and direct contact.",
+        "Informational catalogue without online ordering.",
+        "Structured presentation by category, brand, and format.",
+        "Ongoing emphasis on company identity and direct contact.",
       ],
     },
     legalIntro: {
@@ -191,67 +192,468 @@ export const en: Dictionary = {
   catalog: {
     hero: {
       eyebrow: "Catalogue",
-      title: "A catalogue foundation ready to receive the full RUNI offering.",
+      title: "The RUNI catalogue is now organized by category, brand, and format.",
       description:
-        "The catalogue is now structured by major product families. Product visuals, detailed copy, and final item sheets can be added progressively.",
+        "Browse a first text-based selection structured by product family, brand, and volume. Detailed visuals and additional editorial content can be added progressively.",
       primaryCta: "Contact RUNI",
       secondaryCta: "Back to home",
     },
     preview: {
       eyebrow: "Categories",
-      title: "Explore the main families",
+      title: "Explore the main catalogue families",
       description:
-        "The site now places stronger emphasis on the RUNI offer with a clearer category-first reading inspired by specialist catalogue platforms.",
+        "The RUNI catalogue now follows a clear category-based structure with brand groupings and already defined references.",
       cta: "View all categories",
     },
     filtersLabel: "Quick access",
-    sectionNote: "Content in preparation",
-    slotLabel: "Reference",
-    placeholderTitle: "Product sheet coming soon",
-    placeholderBody:
-      "Visuals, volumes, descriptions, and detailed references will be added later.",
+    sectionNote: "Current selection",
     categories: [
       {
         id: "beer",
         name: "Beers",
         description:
-          "A section ready to group RUNI beer references by format, profile, and major family.",
+          "RUNI beer references are organized by brand, strength, and packaging type.",
         tags: ["Lager", "Cans", "Bottles"],
+        groups: [
+          {
+            title: "Heineken",
+            description: "Heineken Original references in bottle and can formats.",
+            items: [
+              {
+                id: "heineken-original-bottle-33cl",
+                name: "Heineken Original",
+                meta: "Bottle 33 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Heineken Original bottle 33 cl",
+              },
+              {
+                id: "heineken-original-bottle-25cl",
+                name: "Heineken Original",
+                meta: "Bottle 25 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Heineken Original bottle 25 cl",
+              },
+              {
+                id: "heineken-original-can-50cl",
+                name: "Heineken Original",
+                meta: "Can 50 cl",
+                description: "",
+                imageSrc: "/products/beers/heineken-original-can-50cl.png",
+                imageAlt: "Heineken Original can 50 cl",
+              },
+              {
+                id: "heineken-original-can-33cl",
+                name: "Heineken Original",
+                meta: "Can 33 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Heineken Original can 33 cl",
+              },
+            ],
+          },
+          {
+            title: "Vitalsberg",
+            description:
+              "Vitalsberg Original selection across multiple strengths and formats.",
+            items: [
+              {
+                id: "vitalsberg-original-5-can-50cl",
+                name: "Vitalsberg Original 5%",
+                meta: "Can 50 cl",
+                description: "",
+                imageSrc: "/products/beers/vitalsberg-original-5-can-50cl.png",
+                imageAlt: "Vitalsberg Original 5 percent can 50 cl",
+              },
+              {
+                id: "vitalsberg-original-8-can-50cl",
+                name: "Vitalsberg Original 8%",
+                meta: "Can 50 cl",
+                description: "",
+                imageSrc: "/products/beers/vitalsberg-original-8-can-50cl.png",
+                imageAlt: "Vitalsberg Original 8 percent can 50 cl",
+              },
+              {
+                id: "vitalsberg-original-12-can-50cl",
+                name: "Vitalsberg Original 12%",
+                meta: "Can 50 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Vitalsberg Original 12 percent can 50 cl",
+              },
+              {
+                id: "vitalsberg-original-16-can-50cl",
+                name: "Vitalsberg Original 16%",
+                meta: "Can 50 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Vitalsberg Original 16 percent can 50 cl",
+              },
+              {
+                id: "vitalsberg-original-18-1-can-50cl",
+                name: "Vitalsberg Original 18,1%",
+                meta: "Can 50 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Vitalsberg Original 18.1 percent can 50 cl",
+              },
+              {
+                id: "vitalsberg-original-5-can-33cl",
+                name: "Vitalsberg Original 5%",
+                meta: "Can 33 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Vitalsberg Original 5 percent can 33 cl",
+              },
+              {
+                id: "vitalsberg-original-5-bottle-25cl",
+                name: "Vitalsberg Original 5%",
+                meta: "Bottle 25 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Vitalsberg Original 5 percent bottle 25 cl",
+              },
+            ],
+          },
+        ],
       },
       {
         id: "wine",
         name: "Wines",
         description:
-          "A structure designed to host wine ranges by color, profile, and commercial presentation.",
+          "The wine selection is structured by brand, color, and 750 ml format.",
         tags: ["Red", "White", "Rose"],
+        groups: [
+          {
+            title: "Barkan",
+            description: "Barkan references in red, white, and rose 750 ml formats.",
+            items: [
+              {
+                id: "barkan-classic-red-750ml",
+                name: "Barkan Classic",
+                meta: "Red Wine • 750 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Barkan Classic red wine 750 ml",
+              },
+              {
+                id: "barkan-reserve-cabernet-red-750ml",
+                name: "Barkan Reserve Cabernet",
+                meta: "Red Wine • 750 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Barkan Reserve Cabernet red wine 750 ml",
+              },
+              {
+                id: "barkan-platinum-cabernet-sauvignon-red-750ml",
+                name: "Barkan Platinum Cabernet Sauvignon",
+                meta: "Red Wine • 750 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Barkan Platinum Cabernet Sauvignon red wine 750 ml",
+              },
+              {
+                id: "barkan-classic-edition-white-750ml",
+                name: "Barkan Classic Edition",
+                meta: "White Wine • 750 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Barkan Classic Edition white wine 750 ml",
+              },
+              {
+                id: "barkan-gold-edition-white-750ml",
+                name: "Barkan Gold Edition",
+                meta: "White Wine • 750 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Barkan Gold Edition white wine 750 ml",
+              },
+              {
+                id: "barkan-gold-edition-rose-750ml",
+                name: "Barkan Gold Edition",
+                meta: "Rose Wine • 750 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Barkan Gold Edition rose wine 750 ml",
+              },
+            ],
+          },
+        ],
       },
       {
         id: "whisky",
         name: "Whisky",
         description:
-          "A dedicated category for whisky references with room for formats, variants, and future editions.",
-        tags: ["Blended", "Reserves", "Formats"],
+          "The whisky family presents Glen Scott references by variant and format.",
+        tags: ["Imported", "Honey", "Formats"],
+        groups: [
+          {
+            title: "Glen Scott",
+            description:
+              "Glen Scott Imported and Honey references available across multiple formats.",
+            items: [
+              {
+                id: "glen-scott-1854-imported-1l",
+                name: "Glen Scott 1854 Imported",
+                meta: "1 L",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Glen Scott 1854 Imported 1 liter",
+              },
+              {
+                id: "glen-scott-honey-1l",
+                name: "Glen Scott Honey",
+                meta: "1 L",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Glen Scott Honey 1 liter",
+              },
+              {
+                id: "glen-scott-1854-imported-700ml",
+                name: "Glen Scott 1854 Imported",
+                meta: "700 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Glen Scott 1854 Imported 700 ml",
+              },
+              {
+                id: "glen-scott-1854-imported-175ml",
+                name: "Glen Scott 1854 Imported",
+                meta: "175 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Glen Scott 1854 Imported 175 ml",
+              },
+            ],
+          },
+        ],
       },
       {
         id: "arak",
         name: "Arak",
         description:
-          "A distinct catalogue base for classic and flavored arak references.",
-        tags: ["Classic", "Axuss", "Lemon"],
+          "The arak selection distinguishes core references, flavored variants, and small formats.",
+        tags: ["Classic", "Fruit", "Lemon"],
+        groups: [
+          {
+            title: "Arak Shalit",
+            description: "750 ml references with classic and flavored profiles.",
+            items: [
+              {
+                id: "arak-shalit-extra-750ml",
+                name: "Arak Shalit Extra",
+                meta: "40% • 750 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Arak Shalit Extra 750 ml",
+              },
+              {
+                id: "arak-shalit-axsus-750ml",
+                name: "Arak Shalit Axsus",
+                meta: "40% • 750 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Arak Shalit Axsus 750 ml",
+              },
+              {
+                id: "arak-shalit-fruit-750ml",
+                name: "Arak Shalit Fruit",
+                meta: "40% • 750 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Arak Shalit Fruit 750 ml",
+              },
+              {
+                id: "arak-shalit-lemon-750ml",
+                name: "Arak Shalit Lemon",
+                meta: "40% • 750 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Arak Shalit Lemon 750 ml",
+              },
+            ],
+          },
+          {
+            title: "Small formats",
+            description: "175 ml formats for the main arak references.",
+            items: [
+              {
+                id: "arak-shalit-extra-175ml",
+                name: "Arak Shalit Extra",
+                meta: "175 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Arak Shalit Extra 175 ml",
+              },
+              {
+                id: "arak-shalit-axsus-175ml",
+                name: "Arak Shalit Axsus",
+                meta: "175 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Arak Shalit Axsus 175 ml",
+              },
+              {
+                id: "arak-shalit-lemon-175ml",
+                name: "Arak Shalit Lemon",
+                meta: "175 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Arak Shalit Lemon 175 ml",
+              },
+            ],
+          },
+        ],
       },
       {
         id: "vodka",
         name: "Vodka",
         description:
-          "A dedicated family for plain and flavored vodkas with a simple structure for future product sheets.",
-        tags: ["Plain", "Flavored", "Formats"],
+          "The vodka family brings together Imperial Vodka variations by flavor and size.",
+        tags: ["Plain", "Caramel", "Strawberry", "Apple"],
+        groups: [
+          {
+            title: "Imperial Vodka",
+            description:
+              "Imperial Vodka references across 50 cl, 70 cl, and 175 ml formats.",
+            items: [
+              {
+                id: "imperial-vodka-nature-50cl",
+                name: "Imperial Vodka Nature",
+                meta: "37.5% • 50 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Imperial Vodka Nature 50 cl",
+              },
+              {
+                id: "imperial-vodka-caramel-50cl",
+                name: "Imperial Vodka Caramel",
+                meta: "37.5% • 50 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Imperial Vodka Caramel 50 cl",
+              },
+              {
+                id: "imperial-vodka-fraise-50cl",
+                name: "Imperial Vodka Fraise",
+                meta: "37.5% • 50 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Imperial Vodka Fraise 50 cl",
+              },
+              {
+                id: "imperial-vodka-pomme-50cl",
+                name: "Imperial Vodka Pomme",
+                meta: "37.5% • 50 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Imperial Vodka Pomme 50 cl",
+              },
+              {
+                id: "imperial-vodka-nature-70cl",
+                name: "Imperial Vodka Nature",
+                meta: "37.5% • 70 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Imperial Vodka Nature 70 cl",
+              },
+              {
+                id: "imperial-vodka-caramel-70cl",
+                name: "Imperial Vodka Caramel",
+                meta: "37.5% • 70 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Imperial Vodka Caramel 70 cl",
+              },
+              {
+                id: "imperial-vodka-fraise-70cl",
+                name: "Imperial Vodka Fraise",
+                meta: "37.5% • 70 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Imperial Vodka Fraise 70 cl",
+              },
+              {
+                id: "imperial-vodka-pomme-70cl",
+                name: "Imperial Vodka Pomme",
+                meta: "37.5% • 70 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Imperial Vodka Pomme 70 cl",
+              },
+              {
+                id: "imperial-vodka-nature-175ml",
+                name: "Imperial Vodka Nature",
+                meta: "37.5% • 175 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Imperial Vodka Nature 175 ml",
+              },
+            ],
+          },
+        ],
       },
       {
         id: "spirits",
-        name: "Additional spirits",
+        name: "Other spirits",
         description:
-          "A family planned for complementary references such as gin, pastis, and other spirits.",
-        tags: ["Pastis", "Gin", "Other"],
+          "A complementary selection dedicated to pastis and gin across several formats.",
+        tags: ["Pastis", "Gin"],
+        groups: [
+          {
+            title: "Pastis de Shalit",
+            description: "Pastis de Shalit references in 1 L, 50 cl, and 175 ml.",
+            items: [
+              {
+                id: "pastis-de-shalit-1l",
+                name: "Pastis",
+                meta: "40% • 1 L",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Pastis de Shalit 1 liter",
+              },
+              {
+                id: "pastis-de-shalit-50cl",
+                name: "Pastis",
+                meta: "40% • 50 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Pastis de Shalit 50 cl",
+              },
+              {
+                id: "pastis-de-shalit-175ml",
+                name: "Pastis",
+                meta: "40% • 175 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Pastis de Shalit 175 ml",
+              },
+            ],
+          },
+          {
+            title: "Dry Gin (Experience)",
+            description: "Dry Gin Experience references in 1 L and 175 ml.",
+            items: [
+              {
+                id: "dry-gin-experience-1l",
+                name: "Dry Gin",
+                meta: "40% • 1 L",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Dry Gin Experience 1 liter",
+              },
+              {
+                id: "dry-gin-experience-175ml",
+                name: "Dry Gin",
+                meta: "40% • 175 ml",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Dry Gin Experience 175 ml",
+              },
+            ],
+          },
+        ],
       },
     ],
   },
@@ -308,10 +710,11 @@ export const en: Dictionary = {
   },
   footer: {
     navigationTitle: "Navigation",
-    legalTitle: "Legal details",
     contactTitle: "Contact",
     addressLabel: "Address",
     phoneLabel: "Phone",
+    faxLabel: "Fax",
+    gsmLabel: "Mobile",
     emailLabel: "Email",
     rights: "All rights reserved.",
   },
@@ -335,7 +738,9 @@ export const en: Dictionary = {
     statusLabel: "Status",
     status: "Active",
     phoneLabel: "Phone",
-    phone: "+212 0000000",
+    phone: "+212 5 22 49 27 70",
+    fax: "+212 5 22 49 27 70",
+    gsm: "+212 6 60 40 74 74",
     emailLabel: "Public email",
     email: "etsrunicasa@gmail.com",
   },
@@ -344,21 +749,21 @@ export const en: Dictionary = {
     mark: "RUNI monogram",
     collage: {
       IMG_0599:
-        "Archive visual showing bottles and cans arranged in a metal bucket.",
+        "Heineken visual showing bottles and cans arranged in a metal bucket.",
       IMG_0601:
-        "Archive visual presenting multiple bottles held in the foreground.",
+        "Vitalsberg visual showing several bottles raised in the foreground.",
       IMG_0603:
-        "Archive visual showing several references arranged on a light background.",
+        "Arak Shalit visual showing flavored bottles and two glasses on a table.",
       IMG_0605:
-        "Archive visual showing multiple formats aligned in a vertical layout.",
+        "Glen Scott visual showing whisky being poured into a glass.",
       IMG_0607:
-        "Archive visual showing several bottles placed in a vineyard setting.",
+        "Barkan visual showing several bottles in front of a vineyard landscape.",
       IMG_0608:
-        "Archive visual featuring bottles on a textured brown background.",
+        "Glen Scott visual showing several bottles and a glass on a textured brown background.",
       IMG_0610:
-        "Archive visual presenting several bottles against a pale blue background.",
+        "Imperial Vodka visual showing several bottles against a pale blue background.",
       IMG_0613:
-        "Archive visual showing multiple bottles set against a darker scene.",
+        "Pastis and Dry Gin visual showing several bottles on a table in front of a bar setting.",
     },
   },
 };

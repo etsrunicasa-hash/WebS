@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import { CatalogCategoryCard } from "@/components/catalog/CatalogCategoryCard";
 import { buttonStyles } from "@/components/ui/Button";
-import { catalogCategoryImages } from "@/lib/catalog";
+import { getCatalogCategoryImage } from "@/lib/catalog";
 import type { Locale } from "@/lib/i18n";
 import type { Dictionary } from "@/messages/fr";
 
@@ -38,11 +38,11 @@ export function CatalogPreviewSection({
         </div>
 
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {dictionary.catalog.categories.map((category, index) => (
+          {dictionary.catalog.categories.map((category) => (
             <CatalogCategoryCard
               category={category}
               href={`/${locale}/catalog#${category.id}`}
-              imageSrc={catalogCategoryImages[index % catalogCategoryImages.length]}
+              imageSrc={getCatalogCategoryImage(category.id)}
               key={category.id}
             />
           ))}

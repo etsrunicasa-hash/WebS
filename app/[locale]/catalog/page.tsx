@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { CatalogCategoryCard } from "@/components/catalog/CatalogCategoryCard";
 import { CatalogSection } from "@/components/catalog/CatalogSection";
 import { buttonStyles } from "@/components/ui/Button";
-import { catalogCategoryImages } from "@/lib/catalog";
+import { getCatalogCategoryImage } from "@/lib/catalog";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import { buildMetadata } from "@/lib/utils";
 
@@ -86,11 +86,11 @@ export default async function CatalogPage({ params }: CatalogPageProps) {
         </section>
 
         <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {dictionary.catalog.categories.map((category, index) => (
+          {dictionary.catalog.categories.map((category) => (
             <CatalogCategoryCard
               category={category}
               href={`#${category.id}`}
-              imageSrc={catalogCategoryImages[index % catalogCategoryImages.length]}
+              imageSrc={getCatalogCategoryImage(category.id)}
               key={category.id}
               variant="catalog"
             />
@@ -98,12 +98,12 @@ export default async function CatalogPage({ params }: CatalogPageProps) {
         </section>
 
         <div className="space-y-12">
-          {dictionary.catalog.categories.map((category, index) => (
+          {dictionary.catalog.categories.map((category) => (
             <CatalogSection
               category={category}
               dictionary={dictionary}
+              imageSrc={getCatalogCategoryImage(category.id)}
               key={category.id}
-              sectionIndex={index}
             />
           ))}
         </div>

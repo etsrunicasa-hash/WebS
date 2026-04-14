@@ -28,7 +28,7 @@ Copy `.env.example` to `.env.local` and set:
 ```bash
 RESEND_API_KEY=your_resend_api_key
 CONTACT_TO_EMAIL=etsrunicasa@gmail.com
-CONTACT_FROM_EMAIL=noreply@etsruni.com
+CONTACT_FROM_EMAIL=Notification@etsruni.com
 ```
 
 ## Project Structure

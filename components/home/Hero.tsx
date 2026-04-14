@@ -19,13 +19,13 @@ export function Hero({ locale, dictionary }: HeroProps) {
           <div className="space-y-8 xl:sticky xl:top-28">
             <p className="section-eyebrow">{dictionary.home.hero.eyebrow}</p>
             <div className="space-y-5">
-              <div className="relative h-32 w-24 overflow-hidden sm:h-40 sm:w-30">
+              <div className="relative h-48 w-[11.25rem] overflow-hidden sm:h-56 sm:w-[13rem]">
                 <Image
                   alt={dictionary.imageAlts.logo}
-                  className="object-contain"
+                  className="scale-[1.12] object-contain"
                   fill
-                  priority
-                  sizes="120px"
+                  preload
+                  sizes="(max-width: 640px) 180px, 208px"
                   src="/Runi_Logo_NoBG.png"
                 />
               </div>
@@ -64,13 +64,23 @@ export function Hero({ locale, dictionary }: HeroProps) {
               ))}
             </div>
 
-            <div className="grid gap-4 sm:grid-cols-3">
-              {dictionary.home.hero.stats.map((item) => (
-                <div className="card-surface p-5" key={item.label}>
-                  <p className="font-serif text-3xl leading-none tracking-[-0.04em] text-ink">
+            <div className="grid gap-4 sm:grid-cols-2">
+              {dictionary.home.hero.stats.map((item, index) => (
+                <div className="card-surface min-w-0 p-5" key={item.label}>
+                  <p
+                    className={`font-serif leading-tight tracking-[-0.04em] text-ink [overflow-wrap:anywhere] ${
+                      index === 2
+                        ? "text-[clamp(1.6rem,3.8vw,2.35rem)]"
+                        : "text-[clamp(2rem,4.6vw,3rem)]"
+                    }`}
+                  >
                     {item.value}
                   </p>
-                  <p className="mt-2 text-sm uppercase tracking-[0.16em] text-ink-muted">
+                  <p
+                    className={`mt-2 uppercase tracking-[0.16em] text-ink-muted [overflow-wrap:anywhere] ${
+                      index === 2 ? "text-[0.72rem]" : "text-sm"
+                    }`}
+                  >
                     {item.label}
                   </p>
                 </div>
@@ -86,7 +96,7 @@ export function Hero({ locale, dictionary }: HeroProps) {
                   className="object-cover"
                   fill
                   loading="eager"
-                  priority
+                  preload
                   sizes="(max-width: 1280px) 100vw, 48vw"
                   src={homeHeroImageSets.hero[0]}
                 />
@@ -98,7 +108,7 @@ export function Hero({ locale, dictionary }: HeroProps) {
                     alt={dictionary.imageAlts.collage.IMG_0601}
                     className="object-cover"
                     fill
-                    priority
+                    preload
                     sizes="(max-width: 1280px) 50vw, 24vw"
                     src={homeHeroImageSets.hero[1]}
                   />
@@ -108,7 +118,7 @@ export function Hero({ locale, dictionary }: HeroProps) {
                     alt={dictionary.imageAlts.collage.IMG_0607}
                     className="object-cover"
                     fill
-                    priority
+                    preload
                     sizes="(max-width: 1280px) 50vw, 24vw"
                     src={homeHeroImageSets.hero[2]}
                   />
