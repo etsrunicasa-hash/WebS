@@ -730,6 +730,8 @@ const frDictionary = {
     gsmLabel: "GSM",
     emailLabel: "Email",
     rights: "Tous droits réservés.",
+    creditPrefix: "Créé par",
+    creditLinkLabel: "sitekept",
   },
   legal: {
     registeredNameLabel: "Raison sociale",

@@ -85,7 +85,20 @@ export function Footer({ locale, dictionary }: FooterProps) {
           <p>
             © {new Date().getFullYear()} {dictionary.site.name}
           </p>
-          <p>{dictionary.footer.rights}</p>
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-6">
+            <p>{dictionary.footer.rights}</p>
+            <p>
+              {dictionary.footer.creditPrefix}{" "}
+              <a
+                className="text-white/68 transition hover:text-white"
+                href="https://sitekept.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                {dictionary.footer.creditLinkLabel}
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

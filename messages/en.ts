@@ -718,6 +718,8 @@ export const en: Dictionary = {
     gsmLabel: "Mobile",
     emailLabel: "Email",
     rights: "All rights reserved.",
+    creditPrefix: "Created by",
+    creditLinkLabel: "sitekept",
   },
   legal: {
     registeredNameLabel: "Registered name",
