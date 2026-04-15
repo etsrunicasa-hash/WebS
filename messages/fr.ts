@@ -215,9 +215,8 @@ const frDictionary = {
   catalog: {
     hero: {
       eyebrow: "Catalogue",
-      title: "Le catalogue RUNI s'organise désormais par catégories, marques et formats.",
-      description:
-        "Retrouvez une première sélection texte organisée par familles de produits, marques et contenances. Les visuels détaillés et les compléments éditoriaux pourront être ajoutés progressivement.",
+      title: "Decouvrez notre catalogue",
+      description: "",
       primaryCta: "Contacter RUNI",
       secondaryCta: "Retour à l'accueil",
     },

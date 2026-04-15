@@ -209,9 +209,8 @@ export const en: Dictionary = {
   catalog: {
     hero: {
       eyebrow: "Catalogue",
-      title: "The RUNI catalogue is now organized by category, brand, and format.",
-      description:
-        "Browse a first text-based selection structured by product family, brand, and volume. Detailed visuals and additional editorial content can be added progressively.",
+      title: "Discover our catalogue",
+      description: "",
       primaryCta: "Contact RUNI",
       secondaryCta: "Back to home",
     },

@@ -50,9 +50,11 @@ export default async function CatalogPage({ params }: CatalogPageProps) {
             <h1 className="section-title max-w-4xl text-balance text-ink">
               {dictionary.catalog.hero.title}
             </h1>
-            <p className="max-w-3xl text-base leading-8 text-ink-muted">
-              {dictionary.catalog.hero.description}
-            </p>
+            {dictionary.catalog.hero.description ? (
+              <p className="max-w-3xl text-base leading-8 text-ink-muted">
+                {dictionary.catalog.hero.description}
+              </p>
+            ) : null}
 
             <div className="flex flex-col gap-3 sm:flex-row">
               <Link className={buttonStyles({ size: "lg" })} href={`/${locale}/contact`}>
