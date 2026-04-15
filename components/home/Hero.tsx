@@ -26,12 +26,12 @@ export function Hero({ dictionary }: HeroProps) {
 
       <div
         aria-label={dictionary.home.hero.collageCaption}
-        className="group mt-12 overflow-hidden border-y border-line bg-white/40 py-4 sm:mt-14"
+        className="group mt-12 overflow-hidden border-y border-line bg-white/40 sm:mt-14"
       >
-        <div className="flex w-max gap-4 motion-reduce:animate-none motion-reduce:[transform:none] group-hover:[animation-play-state:paused] [animation:runi-carousel_52s_linear_infinite]">
+        <div className="flex w-max motion-reduce:animate-none motion-reduce:[transform:none] group-hover:[animation-play-state:paused] [animation:runi-carousel_52s_linear_infinite]">
           {carouselImages.map((src, index) => (
             <figure
-              className="h-[18rem] w-[78vw] shrink-0 rounded-[2px] bg-white/55 p-4 sm:h-[24rem] sm:w-[25rem] lg:h-[28rem] lg:w-[30rem]"
+              className="h-[18rem] w-[78vw] shrink-0 bg-white/55 sm:h-[24rem] sm:w-[25rem] lg:h-[28rem] lg:w-[30rem]"
               key={`${src}-${index}`}
             >
               <div className="relative h-full w-full">
