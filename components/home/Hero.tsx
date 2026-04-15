@@ -14,6 +14,16 @@ export function Hero({ dictionary }: HeroProps) {
     <section className="pt-20 sm:pt-24">
       <div className="container-shell">
         <div className="mx-auto max-w-4xl text-center">
+          <div className="relative mx-auto mb-8 h-[11.5rem] w-[9.25rem] overflow-hidden sm:h-[14rem] sm:w-[11.25rem] lg:h-[16rem] lg:w-[13rem]">
+            <Image
+              alt={dictionary.imageAlts.logo}
+              className="object-contain"
+              fill
+              priority
+              sizes="(max-width: 640px) 148px, (max-width: 1024px) 180px, 208px"
+              src="/Runi_Logo_Cropped.png"
+            />
+          </div>
           <p className="section-eyebrow">{dictionary.home.hero.eyebrow}</p>
           <h1 className="mt-5 font-serif text-[clamp(4rem,9vw,8rem)] leading-[0.86] tracking-[-0.07em] text-ink">
             {dictionary.home.hero.title}

@@ -30,14 +30,13 @@ export function Footer({ locale, dictionary }: FooterProps) {
       <div className="container-shell grid gap-8 py-8 lg:grid-cols-[0.95fr_0.65fr_1fr]">
         <div className="space-y-4">
           <div className="flex items-center gap-3">
-            <div className="relative h-[8rem] w-[7rem] shrink-0 overflow-hidden sm:h-[8.75rem] sm:w-[7.75rem]">
+            <div className="relative h-[12rem] w-[9.75rem] shrink-0 overflow-hidden sm:h-[14rem] sm:w-[11.25rem] lg:h-[16rem] lg:w-[13rem]">
               <Image
                 alt={dictionary.imageAlts.logo}
                 className="object-contain"
                 fill
-                sizes="(max-width: 640px) 112px, 124px"
-                style={{ transform: "scale(1.24, 1.06)" }}
-                src="/Runi_Logo_NoBG.png"
+                sizes="(max-width: 640px) 156px, (max-width: 1024px) 180px, 208px"
+                src="/Runi_Logo_Cropped.png"
               />
             </div>
             <div>

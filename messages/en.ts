@@ -143,10 +143,20 @@ export const en: Dictionary = {
   about: {
     hero: {
       eyebrow: "About",
-      title: "Identity, structure, and positioning",
+      title: "RUNI SARL",
       description:
-        "This page brings together ETS RUNI's core institutional information: identity, location, legal framework, and a neutral reading of the company's positioning.",
+        "Founded in 1952, RUNI SARL is a Casablanca-based company specializing in the import and distribution of wines and spirits.",
     },
+    paragraphs: [
+      "Founded in 1952, RUNI SARL is a Casablanca-based company specializing in the import and distribution of wines and spirits.",
+      "For more than seven decades, the company has supported the Moroccan market through a structured approach built on continuity, local experience, and strong professional relationships.",
+      "RUNI SARL imports products from several countries and builds its selection around identified references suited to the expectations of the local market.",
+      "The offer includes kosher wines and spirits, integrated within a framework focused on compliance, traceability, and the standards expected by its partners.",
+      "The company holds regional exclusivities for several brands, including Arak Shalit, Barkan, Vitalsberg, Glenn Scott, and Heineken.",
+      "This position allows RUNI SARL to represent recognized brands while maintaining a sober, legible organization focused on long-term professional relationships.",
+      "Part of the activity also includes bottling in Morocco, with attention given to operational consistency and control of local production steps.",
+      "Based in Casablanca, RUNI SARL relies on its long-standing presence to maintain a stable, institutional, and professional role in its sector.",
+    ],
     identity: {
       title: "Company identity",
       body:
@@ -207,9 +217,9 @@ export const en: Dictionary = {
     },
     preview: {
       eyebrow: "Categories",
-      title: "Explore the main catalogue families",
+      title: "Explore our catalogue",
       description:
-        "The RUNI catalogue now follows a clear category-based structure with brand groupings and already defined references.",
+        "Browse the main RUNI product families.",
       cta: "View all categories",
     },
     filtersLabel: "Quick access",
@@ -233,6 +243,14 @@ export const en: Dictionary = {
                 description: "",
                 imageSrc: "/products/beers/heineken-original-bottle-33cl.png",
                 imageAlt: "Heineken Original bottle 33 cl",
+              },
+              {
+                id: "heineken-original-bottle-25cl",
+                name: "Heineken Original",
+                meta: "Bottle 25 cl",
+                description: "",
+                imageSrc: "/products/beers/heineken-original-bottle-33cl.png",
+                imageAlt: "Heineken Original bottle 25 cl",
               },
               {
                 id: "heineken-original-can-50cl",
@@ -278,8 +296,24 @@ export const en: Dictionary = {
                 name: "Vitalsberg Original 12%",
                 meta: "Can 50 cl",
                 description: "",
-                imageSrc: "/products/beers/vitalsberg-original-12-can-50cl.jpg",
+                imageSrc: "/products/beers/vitalsberg-original-12-can-50cl.png",
                 imageAlt: "Vitalsberg Original 12 percent can 50 cl",
+              },
+              {
+                id: "vitalsberg-original-16-can-50cl",
+                name: "Vitalsberg Original 16%",
+                meta: "Can 50 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Vitalsberg Original 16 percent can 50 cl",
+              },
+              {
+                id: "vitalsberg-original-18-1-can-50cl",
+                name: "Vitalsberg Original 18,1%",
+                meta: "Can 50 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Vitalsberg Original 18.1 percent can 50 cl",
               },
             ],
           },
@@ -412,7 +446,7 @@ export const en: Dictionary = {
                 name: "Arak Shalit Extra",
                 meta: "40% • 750 ml",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/arak/arak-shalit-extra-750ml.png",
                 imageAlt: "Arak Shalit Extra 750 ml",
               },
               {
@@ -420,7 +454,7 @@ export const en: Dictionary = {
                 name: "Arak Shalit Axsus",
                 meta: "40% • 750 ml",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/arak/arak-shalit-axsus-750ml.png",
                 imageAlt: "Arak Shalit Axsus 750 ml",
               },
               {
@@ -428,7 +462,7 @@ export const en: Dictionary = {
                 name: "Arak Shalit Fruit",
                 meta: "40% • 750 ml",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/arak/arak-shalit-fruit-750ml.png",
                 imageAlt: "Arak Shalit Fruit 750 ml",
               },
               {
@@ -436,7 +470,7 @@ export const en: Dictionary = {
                 name: "Arak Shalit Lemon",
                 meta: "40% • 750 ml",
                 description: "",
-                imageSrc: "/products/arak/arak-shalit-lemon-750ml.jpg",
+                imageSrc: "/products/arak/arak-shalit-lemon-750ml.png",
                 imageAlt: "Arak Shalit Lemon 750 ml",
               },
             ],
@@ -450,7 +484,7 @@ export const en: Dictionary = {
                 name: "Arak Shalit Extra",
                 meta: "175 ml",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/arak/arak-shalit-extra-175ml.png",
                 imageAlt: "Arak Shalit Extra 175 ml",
               },
               {
@@ -706,7 +740,7 @@ export const en: Dictionary = {
     status: "Active",
     phoneLabel: "Phone",
     phone: "+212 5 22 49 27 70",
-    fax: "+212 5 22 49 27 70",
+    fax: "+212 5 22 49 27 72",
     gsm: "+212 6 60 40 74 74",
     emailLabel: "Public email",
     email: "etsrunicasa@gmail.com",

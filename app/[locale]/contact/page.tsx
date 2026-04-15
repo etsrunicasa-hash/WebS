@@ -79,12 +79,6 @@ export default async function ContactPage({ params }: ContactPageProps) {
                 ))}
               </dl>
             </div>
-
-            <div className="card-surface p-6">
-              <p className="text-sm leading-7 text-ink-muted">
-                {dictionary.contact.details.officeNote}
-              </p>
-            </div>
           </aside>
 
           <section className="card-surface p-6 sm:p-8">

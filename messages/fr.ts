@@ -148,11 +148,21 @@ const frDictionary = {
   },
   about: {
     hero: {
-      eyebrow: "Entreprise",
-      title: "Identité, structure et positionnement",
+      eyebrow: "À propos",
+      title: "RUNI SARL",
       description:
-        "Cette page rassemble les éléments institutionnels essentiels d'ETS RUNI: identité, ancrage, cadre juridique et lecture neutre du positionnement de l'entreprise.",
+        "Fondée en 1952, RUNI SARL est une entreprise basée à Casablanca, spécialisée dans l'importation et la distribution de vins et spiritueux.",
     },
+    paragraphs: [
+      "Fondée en 1952, RUNI SARL est une entreprise basée à Casablanca, spécialisée dans l'importation et la distribution de vins et spiritueux.",
+      "Depuis plus de sept décennies, la société accompagne le marché marocain avec une approche structurée, fondée sur la continuité, la connaissance du terrain et la qualité de ses relations professionnelles.",
+      "RUNI SARL importe ses produits depuis plusieurs pays et construit sa sélection autour de références identifiées, suivies et adaptées aux exigences du marché local.",
+      "L'offre comprend notamment des vins et alcools casher, intégrés dans une démarche de conformité, de traçabilité et de respect des standards attendus par ses partenaires.",
+      "La société détient des exclusivités régionales sur plusieurs marques, notamment Arak Shalit, Barkan, Vitalsberg, Glenn Scott et Heineken.",
+      "Cette position permet à RUNI SARL de représenter des marques reconnues tout en conservant une organisation sobre, lisible et orientée vers les relations professionnelles de long terme.",
+      "Une partie de l'activité comprend également la mise en bouteille au Maroc, avec une attention portée à la régularité des opérations et à la maîtrise des étapes locales.",
+      "Basée à Casablanca, RUNI SARL s'appuie sur son ancrage historique pour maintenir une présence stable, institutionnelle et professionnelle dans son secteur.",
+    ],
     identity: {
       title: "Identité de l'entreprise",
       body:
@@ -213,9 +223,9 @@ const frDictionary = {
     },
     preview: {
       eyebrow: "Catégories",
-      title: "Explorer les familles principales du catalogue",
+      title: "Explorez notre catalogue",
       description:
-        "Le catalogue RUNI s'appuie désormais sur une lecture claire par catégories, avec des groupes de marque et des références déjà structurées.",
+        "Retrouvez les principales familles de produits RUNI.",
       cta: "Voir toutes les catégories",
     },
     filtersLabel: "Accès rapide",
@@ -240,6 +250,14 @@ const frDictionary = {
                 description: "",
                 imageSrc: "/products/beers/heineken-original-bottle-33cl.png",
                 imageAlt: "Heineken Original bouteille 33 cl",
+              },
+              {
+                id: "heineken-original-bottle-25cl",
+                name: "Heineken Original",
+                meta: "Bouteille 25 cl",
+                description: "",
+                imageSrc: "/products/beers/heineken-original-bottle-33cl.png",
+                imageAlt: "Heineken Original bouteille 25 cl",
               },
               {
                 id: "heineken-original-can-50cl",
@@ -285,8 +303,24 @@ const frDictionary = {
                 name: "Vitalsberg Original 12%",
                 meta: "Canette 50 cl",
                 description: "",
-                imageSrc: "/products/beers/vitalsberg-original-12-can-50cl.jpg",
+                imageSrc: "/products/beers/vitalsberg-original-12-can-50cl.png",
                 imageAlt: "Vitalsberg Original 12 pour cent canette 50 cl",
+              },
+              {
+                id: "vitalsberg-original-16-can-50cl",
+                name: "Vitalsberg Original 16%",
+                meta: "Canette 50 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Vitalsberg Original 16 pour cent canette 50 cl",
+              },
+              {
+                id: "vitalsberg-original-18-1-can-50cl",
+                name: "Vitalsberg Original 18,1%",
+                meta: "Canette 50 cl",
+                description: "",
+                imageSrc: "",
+                imageAlt: "Vitalsberg Original 18,1 pour cent canette 50 cl",
               },
             ],
           },
@@ -421,7 +455,7 @@ const frDictionary = {
                 name: "Arak Shalit Extra",
                 meta: "40% • 750 ml",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/arak/arak-shalit-extra-750ml.png",
                 imageAlt: "Arak Shalit Extra 750 ml",
               },
               {
@@ -429,7 +463,7 @@ const frDictionary = {
                 name: "Arak Shalit Axsus",
                 meta: "40% • 750 ml",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/arak/arak-shalit-axsus-750ml.png",
                 imageAlt: "Arak Shalit Axsus 750 ml",
               },
               {
@@ -437,7 +471,7 @@ const frDictionary = {
                 name: "Arak Shalit Fruit",
                 meta: "40% • 750 ml",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/arak/arak-shalit-fruit-750ml.png",
                 imageAlt: "Arak Shalit Fruit 750 ml",
               },
               {
@@ -445,7 +479,7 @@ const frDictionary = {
                 name: "Arak Shalit Lemon",
                 meta: "40% • 750 ml",
                 description: "",
-                imageSrc: "/products/arak/arak-shalit-lemon-750ml.jpg",
+                imageSrc: "/products/arak/arak-shalit-lemon-750ml.png",
                 imageAlt: "Arak Shalit Lemon 750 ml",
               },
             ],
@@ -460,7 +494,7 @@ const frDictionary = {
                 name: "Arak Shalit Extra",
                 meta: "175 ml",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/arak/arak-shalit-extra-175ml.png",
                 imageAlt: "Arak Shalit Extra 175 ml",
               },
               {
@@ -718,7 +752,7 @@ const frDictionary = {
     status: "En activité",
     phoneLabel: "Téléphone",
     phone: "+212 5 22 49 27 70",
-    fax: "+212 5 22 49 27 70",
+    fax: "+212 5 22 49 27 72",
     gsm: "+212 6 60 40 74 74",
     emailLabel: "Email public",
     email: "etsrunicasa@gmail.com",
