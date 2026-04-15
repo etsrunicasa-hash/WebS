@@ -37,6 +37,11 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  overflow-x: clip;
+}
+
 body {
   min-height: 100vh;
   background:
@@ -88,26 +93,26 @@ img {
 }
 
 .container-shell {
-  width: min(100% - 1.5rem, 1180px);
+  width: min(calc(100% - clamp(1.25rem, 5vw, 4rem)), 1180px);
   margin-inline: auto;
 }
 
 .section-space {
-  padding-block: clamp(4rem, 7vw, 6.5rem);
+  padding-block: clamp(3.25rem, 7vw, 6.5rem);
 }
 
 .section-eyebrow {
-  font-size: 0.78rem;
+  font-size: clamp(0.7rem, 1.6vw, 0.78rem);
   font-weight: 600;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--brand-secondary);
 }
 
 .section-title {
   font-family: var(--font-cormorant-garamond), serif;
-  font-size: clamp(2.2rem, 4vw, 4.25rem);
-  line-height: 0.96;
+  font-size: clamp(2.35rem, 5.5vw, 4.25rem);
+  line-height: 0.98;
   letter-spacing: -0.04em;
 }
 

@@ -16,8 +16,8 @@ export function CatalogPreviewSection({
   dictionary,
 }: CatalogPreviewSectionProps) {
   return (
-    <section className="section-space pt-4">
-      <div className="container-shell space-y-8">
+    <section className="section-space pt-2 sm:pt-4">
+      <div className="container-shell space-y-7 sm:space-y-8">
         <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-3xl space-y-4">
             <p className="section-eyebrow">{dictionary.catalog.preview.eyebrow}</p>
@@ -30,14 +30,18 @@ export function CatalogPreviewSection({
           </div>
 
           <Link
-            className={buttonStyles({ size: "lg", variant: "secondary" })}
+            className={buttonStyles({
+              className: "w-full sm:w-fit",
+              size: "lg",
+              variant: "secondary",
+            })}
             href={`/${locale}/catalog`}
           >
             {dictionary.catalog.preview.cta}
           </Link>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
           {dictionary.catalog.categories.map((category) => (
             <CatalogCategoryCard
               category={category}

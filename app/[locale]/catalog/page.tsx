@@ -42,26 +42,33 @@ export default async function CatalogPage({ params }: CatalogPageProps) {
   const dictionary = getDictionary(locale);
 
   return (
-    <div className="section-space pt-14 sm:pt-18">
-      <div className="container-shell space-y-12">
-        <section className="grid gap-8 lg:grid-cols-[0.86fr_1.14fr] lg:items-end">
-          <div className="space-y-5">
+    <div className="section-space pt-10 sm:pt-14 lg:pt-18">
+      <div className="container-shell space-y-10 sm:space-y-12">
+        <section className="grid gap-6 lg:grid-cols-[0.86fr_1.14fr] lg:items-end lg:gap-8">
+          <div className="space-y-4 sm:space-y-5">
             <p className="section-eyebrow">{dictionary.catalog.hero.eyebrow}</p>
             <h1 className="section-title max-w-4xl text-balance text-ink">
               {dictionary.catalog.hero.title}
             </h1>
             {dictionary.catalog.hero.description ? (
-              <p className="max-w-3xl text-base leading-8 text-ink-muted">
+              <p className="max-w-3xl text-base leading-7 text-ink-muted sm:leading-8">
                 {dictionary.catalog.hero.description}
               </p>
             ) : null}
 
             <div className="flex flex-col gap-3 sm:flex-row">
-              <Link className={buttonStyles({ size: "lg" })} href={`/${locale}/contact`}>
+              <Link
+                className={buttonStyles({ className: "w-full sm:w-auto", size: "lg" })}
+                href={`/${locale}/contact`}
+              >
                 {dictionary.catalog.hero.primaryCta}
               </Link>
               <Link
-                className={buttonStyles({ size: "lg", variant: "secondary" })}
+                className={buttonStyles({
+                  className: "w-full sm:w-auto",
+                  size: "lg",
+                  variant: "secondary",
+                })}
                 href={`/${locale}`}
               >
                 {dictionary.catalog.hero.secondaryCta}
@@ -76,7 +83,7 @@ export default async function CatalogPage({ params }: CatalogPageProps) {
             <div className="mt-4 flex flex-wrap gap-2">
               {dictionary.catalog.categories.map((category) => (
                 <Link
-                  className="rounded-sm border border-line bg-white/80 px-3 py-2 text-[0.68rem] font-medium uppercase tracking-[0.18em] text-ink hover:border-brand-primary hover:text-brand-primary"
+                  className="min-h-10 rounded-sm border border-line bg-white/80 px-3 py-2 text-[0.68rem] font-medium uppercase tracking-[0.16em] text-ink hover:border-brand-primary hover:text-brand-primary"
                   href={`#${category.id}`}
                   key={category.id}
                 >
@@ -87,7 +94,7 @@ export default async function CatalogPage({ params }: CatalogPageProps) {
           </div>
         </section>
 
-        <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
           {dictionary.catalog.categories.map((category) => (
             <CatalogCategoryCard
               category={category}

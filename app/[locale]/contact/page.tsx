@@ -45,23 +45,23 @@ export default async function ContactPage({ params }: ContactPageProps) {
   ];
 
   return (
-    <div className="section-space pt-14 sm:pt-18">
-      <div className="container-shell space-y-12">
-        <section className="max-w-3xl space-y-5">
+    <div className="section-space pt-10 sm:pt-14 lg:pt-18">
+      <div className="container-shell space-y-10 sm:space-y-12">
+        <section className="max-w-3xl space-y-4 sm:space-y-5">
           <p className="section-eyebrow">{dictionary.contact.hero.eyebrow}</p>
           <h1 className="section-title text-balance text-ink">
             {dictionary.contact.hero.title}
           </h1>
-          <p className="text-base leading-8 text-ink-muted">
+          <p className="text-base leading-7 text-ink-muted sm:leading-8">
             {dictionary.contact.hero.description}
           </p>
         </section>
 
-        <section className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr]">
+        <section className="grid gap-6 lg:grid-cols-[0.82fr_1.18fr] lg:gap-8">
           <aside className="space-y-6">
-            <div className="card-surface p-6">
+            <div className="card-surface p-5 sm:p-6">
               <p className="section-eyebrow">{dictionary.contact.details.title}</p>
-              <h2 className="mt-4 font-serif text-4xl leading-tight tracking-[-0.04em] text-ink">
+              <h2 className="mt-4 font-serif text-[2.3rem] leading-tight tracking-[-0.04em] text-ink sm:text-4xl">
                 {dictionary.contact.details.officeTitle}
               </h2>
               <p className="mt-4 text-sm leading-7 text-ink-muted">
@@ -74,17 +74,19 @@ export default async function ContactPage({ params }: ContactPageProps) {
                     <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-ink-muted">
                       {label}
                     </dt>
-                    <dd className="mt-1 text-sm leading-7 text-ink">{value}</dd>
+                    <dd className="mt-1 break-words text-sm leading-7 text-ink">
+                      {value}
+                    </dd>
                   </div>
                 ))}
               </dl>
             </div>
           </aside>
 
-          <section className="card-surface p-6 sm:p-8">
+          <section className="card-surface p-5 sm:p-8">
             <div className="mb-6 space-y-3">
               <p className="section-eyebrow">{dictionary.contact.form.title}</p>
-              <h2 className="font-serif text-4xl leading-tight tracking-[-0.04em] text-ink">
+              <h2 className="font-serif text-[2.3rem] leading-tight tracking-[-0.04em] text-ink sm:text-4xl">
                 {dictionary.contact.form.title}
               </h2>
               <p className="text-sm leading-7 text-ink-muted">

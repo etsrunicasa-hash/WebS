@@ -38,16 +38,16 @@ export default async function AboutPage({ params }: AboutPageProps) {
   const dictionary = getDictionary(locale);
 
   return (
-    <main className="px-4 py-20 sm:py-24">
-      <section className="mx-auto max-w-[760px]">
-        <div className="mx-auto mb-10 flex justify-center">
-          <div className="relative h-[10rem] w-[8.125rem] sm:h-[12rem] sm:w-[9.75rem]">
+    <main className="py-14 sm:py-20 lg:py-24">
+      <section className="container-shell max-w-[780px]">
+        <div className="mx-auto mb-8 flex justify-center sm:mb-10">
+          <div className="relative h-[11rem] w-[8.875rem] sm:h-[13rem] sm:w-[10.5rem]">
             <Image
               alt={dictionary.imageAlts.logo}
               className="object-contain"
               fill
               priority
-              sizes="(max-width: 640px) 130px, 156px"
+              sizes="(max-width: 640px) 142px, 168px"
               src="/Runi_Logo_Cropped.png"
             />
           </div>
@@ -55,13 +55,13 @@ export default async function AboutPage({ params }: AboutPageProps) {
 
         <div className="text-center">
           <p className="section-eyebrow">{dictionary.about.hero.eyebrow}</p>
-          <h1 className="mt-5 font-serif text-5xl font-semibold leading-none tracking-tight text-neutral-800 sm:text-6xl">
+          <h1 className="mt-4 font-serif text-[clamp(3rem,12vw,4.5rem)] font-semibold leading-none tracking-tight text-neutral-800 sm:mt-5">
             {dictionary.about.hero.title}
           </h1>
         </div>
 
-        <div className="mt-10 border-t border-line pt-10">
-          <div className="space-y-6 text-lg leading-relaxed text-neutral-800">
+        <div className="mt-8 border-t border-line pt-8 sm:mt-10 sm:pt-10">
+          <div className="space-y-5 text-base leading-8 text-neutral-800 sm:space-y-6 sm:text-lg sm:leading-relaxed">
             {dictionary.about.paragraphs.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}

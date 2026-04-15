@@ -27,9 +27,9 @@ export function Footer({ locale, dictionary }: FooterProps) {
 
   return (
     <footer className="border-t border-black/6 bg-[#0f1512] text-white">
-      <div className="container-shell grid gap-8 py-8 lg:grid-cols-[0.95fr_0.65fr_1fr]">
+      <div className="container-shell grid gap-9 py-10 sm:py-12 lg:grid-cols-[0.95fr_0.65fr_1fr] lg:gap-8">
         <div className="space-y-4">
-          <div className="flex items-center gap-3">
+          <div className="flex flex-col items-start gap-3 min-[420px]:flex-row min-[420px]:items-center">
             <div className="relative h-[12rem] w-[9.75rem] shrink-0 overflow-hidden sm:h-[14rem] sm:w-[11.25rem] lg:h-[16rem] lg:w-[13rem]">
               <Image
                 alt={dictionary.imageAlts.logo}
@@ -70,18 +70,21 @@ export function Footer({ locale, dictionary }: FooterProps) {
           <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-white/60">
             {dictionary.footer.contactTitle}
           </h2>
-          <dl className="mt-4 space-y-2 text-sm leading-6 text-white/78">
+          <dl className="mt-4 space-y-3 text-sm leading-6 text-white/78 sm:space-y-2">
             {contactItems.map(([label, value]) => (
-              <div className="grid grid-cols-[88px_1fr] gap-3" key={label}>
+              <div
+                className="grid gap-1 sm:grid-cols-[88px_1fr] sm:gap-3"
+                key={label}
+              >
                 <dt className="text-white/44">{label}</dt>
-                <dd>{value}</dd>
+                <dd className="min-w-0 break-words">{value}</dd>
               </div>
             ))}
           </dl>
         </div>
       </div>
       <div className="border-t border-white/8">
-        <div className="container-shell flex flex-col gap-2 py-3 text-xs uppercase tracking-[0.18em] text-white/44 sm:flex-row sm:items-center sm:justify-between">
+        <div className="container-shell flex flex-col gap-2 py-4 text-[0.68rem] uppercase tracking-[0.12em] text-white/44 sm:flex-row sm:items-center sm:justify-between sm:text-xs sm:tracking-[0.18em]">
           <p>
             © {new Date().getFullYear()} {dictionary.site.name}
           </p>

@@ -106,7 +106,7 @@ export function ContactForm({ locale, dictionary }: ContactFormProps) {
         />
       </div>
 
-      <div className="grid gap-5 md:grid-cols-2">
+      <div className="grid gap-4 sm:gap-5 md:grid-cols-2">
         <Field
           error={getErrorMessage(errors.fullName)}
           label={dictionary.form.labels.fullName}
@@ -178,7 +178,7 @@ export function ContactForm({ locale, dictionary }: ContactFormProps) {
         </Field>
       </div>
 
-      <div className="grid gap-5 md:grid-cols-2">
+      <div className="grid gap-4 sm:gap-5 md:grid-cols-2">
         <Field
           error={getErrorMessage(errors.inquiryType)}
           label={dictionary.form.labels.inquiryType}
@@ -218,7 +218,7 @@ export function ContactForm({ locale, dictionary }: ContactFormProps) {
       </Field>
 
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <div aria-live="polite" className="min-h-6 text-sm">
+        <div aria-live="polite" className="min-h-6 text-sm leading-6">
           {submissionState !== "idle" ? (
             <p
               className={cn(
@@ -236,7 +236,12 @@ export function ContactForm({ locale, dictionary }: ContactFormProps) {
           )}
         </div>
 
-        <Button disabled={isSubmitting} size="lg" type="submit">
+        <Button
+          className="w-full sm:w-auto"
+          disabled={isSubmitting}
+          size="lg"
+          type="submit"
+        >
           {isSubmitting
             ? dictionary.form.submit.loading
             : dictionary.form.submit.idle}
@@ -255,7 +260,7 @@ type FieldProps = {
 
 function Field({ children, error, label, required = false }: FieldProps) {
   return (
-    <label className="block space-y-2">
+    <label className="block min-w-0 space-y-2">
       <span className="text-sm font-medium text-ink">
         {label}
         {required ? <span className="ml-1 text-brand-primary">*</span> : null}

@@ -14,8 +14,8 @@ type CatalogCategoryCardProps = {
 };
 
 const variantClasses = {
-  preview: "min-h-[21rem]",
-  catalog: "min-h-[23rem]",
+  preview: "min-h-[18rem] sm:min-h-[21rem]",
+  catalog: "min-h-[19rem] sm:min-h-[23rem]",
 };
 
 export function CatalogCategoryCard({
@@ -37,16 +37,12 @@ export function CatalogCategoryCard({
           aria-hidden="true"
           className="object-cover transition duration-500 group-hover:scale-[1.03]"
           fill
-          sizes={
-            variant === "preview"
-              ? "(max-width: 1280px) 50vw, 33vw"
-              : "(max-width: 1280px) 50vw, 33vw"
-          }
+          sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
           src={imageSrc}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#111814] via-[#111814]/52 to-transparent" />
-        <div className="relative flex h-full flex-col justify-end p-6 sm:p-7">
-          <h3 className="font-serif text-4xl leading-none tracking-[-0.05em] text-white sm:text-5xl">
+        <div className="relative flex h-full flex-col justify-end p-5 sm:p-7">
+          <h3 className="font-serif text-[2.35rem] leading-none tracking-[-0.05em] text-white sm:text-5xl">
             {category.name}
           </h3>
           <p className="mt-4 max-w-md text-sm leading-7 text-white/76">
