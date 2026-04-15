@@ -2,6 +2,7 @@ import { CatalogPreviewSection } from "@/components/home/CatalogPreviewSection";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import { Disclaimer } from "@/components/home/Disclaimer";
 import { Hero } from "@/components/home/Hero";
 import { buildMetadata } from "@/lib/utils";
 import { getDictionary, isLocale } from "@/lib/i18n";
@@ -39,8 +40,9 @@ export default async function HomePage({ params }: HomePageProps) {
 
   return (
     <>
-      <Hero dictionary={dictionary} locale={locale} />
+      <Hero dictionary={dictionary} />
       <CatalogPreviewSection dictionary={dictionary} locale={locale} />
+      <Disclaimer dictionary={dictionary} />
     </>
   );
 }

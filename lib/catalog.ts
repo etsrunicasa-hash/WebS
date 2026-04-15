@@ -28,3 +28,10 @@ export const homeHeroImageSets = {
     "/home-images/pastis-home.jpg",
   ],
 } as const;
+
+export const homeCarouselImages = [
+  "/images/IMG_0640.JPG",
+  "/images/IMG_0646.JPG",
+  "/images/IMG_0648.PNG",
+  "/images/IMG_0649.jpg",
+] as const;

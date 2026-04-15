@@ -47,10 +47,9 @@ const frDictionary = {
   home: {
     hero: {
       eyebrow: "RUNI SARL | Casablanca",
-      title:
-        "Un catalogue RUNI plus direct, plus visuel, structuré par catégories et marques.",
+      title: "RUNI SARL",
       description:
-        "La homepage devient une vitrine plus promotionnelle pour la SARL RUNI, avec des visuels dominants et un accès immédiat à un catalogue organisé par catégories.",
+        "Importateur et distributeur de spiritueux au Maroc.",
       primaryCta: "Voir le catalogue",
       secondaryCta: "Découvrir RUNI",
       collageCaption:
@@ -62,6 +61,14 @@ const frDictionary = {
         { value: "RUNI", label: "Marque" },
       ],
     },
+    company: {
+      title: "Depuis 1952",
+      body:
+        "Depuis 1952, RUNI SARL accompagne le marché marocain avec une activité d'importation et de distribution structurée, portée par l'expérience, la continuité et la qualité de ses partenariats.",
+      facts: ["6 partenaires", "Basé à Casablanca"],
+    },
+    disclaimer:
+      "La consommation d'alcool est strictement réservée aux personnes majeures de 18 ans et plus.",
     intro: {
       eyebrow: "Présentation",
       title: "Une entreprise installée dans la durée",
@@ -231,16 +238,8 @@ const frDictionary = {
                 name: "Heineken Original",
                 meta: "Bouteille 33 cl",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/beers/heineken-original-bottle-33cl.png",
                 imageAlt: "Heineken Original bouteille 33 cl",
-              },
-              {
-                id: "heineken-original-bottle-25cl",
-                name: "Heineken Original",
-                meta: "Bouteille 25 cl",
-                description: "",
-                imageSrc: "",
-                imageAlt: "Heineken Original bouteille 25 cl",
               },
               {
                 id: "heineken-original-can-50cl",
@@ -255,7 +254,7 @@ const frDictionary = {
                 name: "Heineken Original",
                 meta: "Canette 33 cl",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/beers/heineken-original-can-33cl.png",
                 imageAlt: "Heineken Original canette 33 cl",
               },
             ],
@@ -286,40 +285,8 @@ const frDictionary = {
                 name: "Vitalsberg Original 12%",
                 meta: "Canette 50 cl",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/beers/vitalsberg-original-12-can-50cl.jpg",
                 imageAlt: "Vitalsberg Original 12 pour cent canette 50 cl",
-              },
-              {
-                id: "vitalsberg-original-16-can-50cl",
-                name: "Vitalsberg Original 16%",
-                meta: "Canette 50 cl",
-                description: "",
-                imageSrc: "",
-                imageAlt: "Vitalsberg Original 16 pour cent canette 50 cl",
-              },
-              {
-                id: "vitalsberg-original-18-1-can-50cl",
-                name: "Vitalsberg Original 18,1%",
-                meta: "Canette 50 cl",
-                description: "",
-                imageSrc: "",
-                imageAlt: "Vitalsberg Original 18,1 pour cent canette 50 cl",
-              },
-              {
-                id: "vitalsberg-original-5-can-33cl",
-                name: "Vitalsberg Original 5%",
-                meta: "Canette 33 cl",
-                description: "",
-                imageSrc: "",
-                imageAlt: "Vitalsberg Original 5 pour cent canette 33 cl",
-              },
-              {
-                id: "vitalsberg-original-5-bottle-25cl",
-                name: "Vitalsberg Original 5%",
-                meta: "Bouteille 25 cl",
-                description: "",
-                imageSrc: "",
-                imageAlt: "Vitalsberg Original 5 pour cent bouteille 25 cl",
               },
             ],
           },
@@ -478,7 +445,7 @@ const frDictionary = {
                 name: "Arak Shalit Lemon",
                 meta: "40% • 750 ml",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/arak/arak-shalit-lemon-750ml.jpg",
                 imageAlt: "Arak Shalit Lemon 750 ml",
               },
             ],

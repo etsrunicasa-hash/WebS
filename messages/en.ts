@@ -41,10 +41,9 @@ export const en: Dictionary = {
   home: {
     hero: {
       eyebrow: "RUNI SARL | Casablanca",
-      title:
-        "A more direct, more visual RUNI catalogue structured by category and brand.",
+      title: "RUNI SARL",
       description:
-        "The homepage now works as a stronger promotional front for RUNI, with dominant visuals and immediate access to a category-based catalogue structure.",
+        "Importer and distributor of spirits in Morocco.",
       primaryCta: "View catalogue",
       secondaryCta: "About RUNI",
       collageCaption:
@@ -56,6 +55,14 @@ export const en: Dictionary = {
         { value: "RUNI", label: "Brand" },
       ],
     },
+    company: {
+      title: "Since 1952",
+      body:
+        "Since 1952, RUNI SARL has supported the Moroccan market through a structured import and distribution activity driven by experience, continuity, and the quality of its partnerships.",
+      facts: ["6 partners", "Based in Casablanca"],
+    },
+    disclaimer:
+      "Alcohol consumption is strictly reserved for adults aged 18 and over.",
     intro: {
       eyebrow: "Overview",
       title: "A company built for continuity",
@@ -224,16 +231,8 @@ export const en: Dictionary = {
                 name: "Heineken Original",
                 meta: "Bottle 33 cl",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/beers/heineken-original-bottle-33cl.png",
                 imageAlt: "Heineken Original bottle 33 cl",
-              },
-              {
-                id: "heineken-original-bottle-25cl",
-                name: "Heineken Original",
-                meta: "Bottle 25 cl",
-                description: "",
-                imageSrc: "",
-                imageAlt: "Heineken Original bottle 25 cl",
               },
               {
                 id: "heineken-original-can-50cl",
@@ -248,7 +247,7 @@ export const en: Dictionary = {
                 name: "Heineken Original",
                 meta: "Can 33 cl",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/beers/heineken-original-can-33cl.png",
                 imageAlt: "Heineken Original can 33 cl",
               },
             ],
@@ -279,40 +278,8 @@ export const en: Dictionary = {
                 name: "Vitalsberg Original 12%",
                 meta: "Can 50 cl",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/beers/vitalsberg-original-12-can-50cl.jpg",
                 imageAlt: "Vitalsberg Original 12 percent can 50 cl",
-              },
-              {
-                id: "vitalsberg-original-16-can-50cl",
-                name: "Vitalsberg Original 16%",
-                meta: "Can 50 cl",
-                description: "",
-                imageSrc: "",
-                imageAlt: "Vitalsberg Original 16 percent can 50 cl",
-              },
-              {
-                id: "vitalsberg-original-18-1-can-50cl",
-                name: "Vitalsberg Original 18,1%",
-                meta: "Can 50 cl",
-                description: "",
-                imageSrc: "",
-                imageAlt: "Vitalsberg Original 18.1 percent can 50 cl",
-              },
-              {
-                id: "vitalsberg-original-5-can-33cl",
-                name: "Vitalsberg Original 5%",
-                meta: "Can 33 cl",
-                description: "",
-                imageSrc: "",
-                imageAlt: "Vitalsberg Original 5 percent can 33 cl",
-              },
-              {
-                id: "vitalsberg-original-5-bottle-25cl",
-                name: "Vitalsberg Original 5%",
-                meta: "Bottle 25 cl",
-                description: "",
-                imageSrc: "",
-                imageAlt: "Vitalsberg Original 5 percent bottle 25 cl",
               },
             ],
           },
@@ -469,7 +436,7 @@ export const en: Dictionary = {
                 name: "Arak Shalit Lemon",
                 meta: "40% • 750 ml",
                 description: "",
-                imageSrc: "",
+                imageSrc: "/products/arak/arak-shalit-lemon-750ml.jpg",
                 imageAlt: "Arak Shalit Lemon 750 ml",
               },
             ],

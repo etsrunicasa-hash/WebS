@@ -122,3 +122,13 @@ img {
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(20px);
 }
+
+@keyframes runi-carousel {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
