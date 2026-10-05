@@ -1,0 +1,849 @@
+{
+  "date": "2026-10-02",
+  "tool": "ChatGPT built-in image_gen",
+  "products": [
+    {
+      "id": "heineken-original-bottle-33cl",
+      "src": "/products/beers/heineken-original-bottle-33cl.png",
+      "ids": [
+        "heineken-original-bottle-33cl"
+      ],
+      "name": "Heineken Original",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.",
+      "output": "/optimized/products/heineken-original-bottle-33cl.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 122878,
+      "transparentPixels": 709036,
+      "normalizedCrop": {
+        "left": 314,
+        "top": 23,
+        "width": 397,
+        "height": 1488
+      },
+      "generatedSourceTransparentPixels": 1094765
+    },
+    {
+      "id": "heineken-original-bottle-25cl",
+      "src": "/products/beers/heineken-original-bottle-25cl.jpg",
+      "ids": [
+        "heineken-original-bottle-25cl"
+      ],
+      "name": "Heineken Original",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.",
+      "output": "/optimized/products/heineken-original-bottle-25cl.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 113296,
+      "transparentPixels": 710317,
+      "normalizedCrop": {
+        "left": 311,
+        "top": 8,
+        "width": 401,
+        "height": 1513
+      },
+      "generatedSourceTransparentPixels": 1079748
+    },
+    {
+      "id": "heineken-original-can-50cl",
+      "src": "/products/beers/heineken-original-can-50cl.png",
+      "ids": [
+        "heineken-original-can-50cl"
+      ],
+      "name": "Heineken Original",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.",
+      "output": "/optimized/products/heineken-original-can-50cl.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 138216,
+      "transparentPixels": 530745,
+      "normalizedCrop": {
+        "left": 251,
+        "top": 74,
+        "width": 523,
+        "height": 1384
+      },
+      "generatedSourceTransparentPixels": 866439
+    },
+    {
+      "id": "heineken-original-can-33cl",
+      "src": "/products/beers/heineken-original-can-33cl.png",
+      "ids": [
+        "heineken-original-can-33cl"
+      ],
+      "name": "Heineken Original",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Heineken Original, heineken-original-can-33cl. Heineken shorter 33cl can; retain squat can proportions.",
+      "output": "/optimized/products/heineken-original-can-33cl.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 223020,
+      "transparentPixels": 337594,
+      "normalizedCrop": {
+        "left": 114,
+        "top": 77,
+        "width": 798,
+        "height": 1425
+      },
+      "generatedSourceTransparentPixels": 485716
+    },
+    {
+      "id": "vitalsberg-original-5-can-50cl",
+      "src": "/products/beers/vitalsberg-original-5-can-50cl.png",
+      "crop": {
+        "sourceWidth": 860,
+        "sourceHeight": 993,
+        "left": 250,
+        "top": 107,
+        "width": 336,
+        "height": 787
+      },
+      "ids": [
+        "vitalsberg-original-5-can-50cl"
+      ],
+      "name": "Vitalsberg Original 5%",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Vitalsberg Original 5%, vitalsberg-original-5-can-50cl. Green Vitalsberg can, 5,0%.",
+      "output": "/optimized/products/vitalsberg-original-5-can-50cl.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 124540,
+      "transparentPixels": 521722,
+      "normalizedCrop": {
+        "left": 241,
+        "top": 54,
+        "width": 545,
+        "height": 1402
+      },
+      "generatedSourceTransparentPixels": 832303
+    },
+    {
+      "id": "vitalsberg-original-8-can-50cl",
+      "src": "/products/beers/vitalsberg-original-8-can-50cl.png",
+      "crop": {
+        "sourceWidth": 620,
+        "sourceHeight": 464,
+        "left": 217,
+        "top": 9,
+        "width": 182,
+        "height": 449
+      },
+      "ids": [
+        "vitalsberg-original-8-can-50cl"
+      ],
+      "name": "Vitalsberg Original 8%",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Vitalsberg Original 8%, vitalsberg-original-8-can-50cl. Red Vitalsberg can, 8,0%.",
+      "output": "/optimized/products/vitalsberg-original-8-can-50cl.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 130090,
+      "transparentPixels": 554244,
+      "normalizedCrop": {
+        "left": 253,
+        "top": 33,
+        "width": 518,
+        "height": 1437
+      },
+      "generatedSourceTransparentPixels": 853163
+    },
+    {
+      "id": "vitalsberg-original-16-can-50cl",
+      "src": "/products/beers/vitalsberg-original-16-can-50cl.jpg",
+      "crop": {
+        "sourceWidth": 640,
+        "sourceHeight": 640,
+        "left": 332,
+        "top": 28,
+        "width": 252,
+        "height": 606
+      },
+      "ids": [
+        "vitalsberg-original-16-can-50cl"
+      ],
+      "name": "Vitalsberg Original 16%",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Vitalsberg Original 16%, vitalsberg-original-16-can-50cl. Isolate ONLY the red 16,0% can on the right, remove the glass of beer and stone wall. Straighten its slightly leaning axis without changing can proportions.",
+      "output": "/optimized/products/vitalsberg-original-16-can-50cl.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 137426,
+      "transparentPixels": 553097,
+      "normalizedCrop": {
+        "left": 249,
+        "top": 42,
+        "width": 528,
+        "height": 1452
+      },
+      "generatedSourceTransparentPixels": 830738
+    },
+    {
+      "id": "vitalsberg-original-12-can-50cl",
+      "src": "/products/beers/vitalsberg-original-12-can-50cl.png",
+      "crop": {
+        "sourceWidth": 554,
+        "sourceHeight": 554,
+        "left": 194,
+        "top": 93,
+        "width": 145,
+        "height": 359
+      },
+      "ids": [
+        "vitalsberg-original-12-can-50cl"
+      ],
+      "name": "Vitalsberg Original 12%",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Vitalsberg Original 12%, vitalsberg-original-12-can-50cl. Burgundy Vitalsberg 12,0% can; keep the distinctive burgundy shade.",
+      "output": "/optimized/products/vitalsberg-original-12-can-50cl.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 140368,
+      "transparentPixels": 545695,
+      "normalizedCrop": {
+        "left": 260,
+        "top": 86,
+        "width": 504,
+        "height": 1361
+      },
+      "generatedSourceTransparentPixels": 906791
+    },
+    {
+      "id": "barkan-reserve-cabernet-red-750ml",
+      "src": "/products/wine/barkan-reserve-cabernet-red-750ml.png",
+      "ids": [
+        "barkan-reserve-cabernet-red-750ml"
+      ],
+      "name": "Barkan Reserve Cabernet",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Barkan Reserve Cabernet, barkan-reserve-cabernet-red-750ml. Preserve BARKAN RESERVE CABERNET SAUVIGNON burgundy/gold label and black capsule. Refined dark glass highlights, no fake gloss, no label redesign.",
+      "output": "/optimized/products/barkan-reserve-cabernet-red-750ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 50976,
+      "transparentPixels": 735701,
+      "normalizedCrop": {
+        "left": 329,
+        "top": 0,
+        "width": 367,
+        "height": 1535
+      },
+      "generatedSourceTransparentPixels": 1116590
+    },
+    {
+      "id": "barkan-classic-red-750ml",
+      "src": "/products/wine/barkan-classic-red-750ml.png",
+      "ids": [
+        "barkan-classic-red-750ml"
+      ],
+      "name": "Barkan Classic",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Barkan Classic, barkan-classic-red-750ml. Preserve BARKAN CLASSIC SHIRAZ burgundy/gold label and black capsule. Refined dark glass highlights, no fake gloss, no label redesign.",
+      "output": "/optimized/products/barkan-classic-red-750ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 46664,
+      "transparentPixels": 724457,
+      "normalizedCrop": {
+        "left": 320,
+        "top": 8,
+        "width": 388,
+        "height": 1519
+      },
+      "generatedSourceTransparentPixels": 1104097
+    },
+    {
+      "id": "barkan-platinum-cabernet-sauvignon-red-750ml",
+      "src": "/products/wine/barkan-platinum-cabernet-sauvignon-red-750ml.png",
+      "ids": [
+        "barkan-platinum-cabernet-sauvignon-red-750ml"
+      ],
+      "name": "Barkan Platinum Cabernet Sauvignon",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Barkan Platinum Cabernet Sauvignon, barkan-platinum-cabernet-sauvignon-red-750ml. BARKAN PLATINUM CABERNET SAUVIGNON. Preserve metallic silver label, black bottle and capsule.",
+      "output": "/optimized/products/barkan-platinum-cabernet-sauvignon-red-750ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 42852,
+      "transparentPixels": 703998,
+      "normalizedCrop": {
+        "left": 296,
+        "top": 10,
+        "width": 432,
+        "height": 1516
+      },
+      "generatedSourceTransparentPixels": 1065810
+    },
+    {
+      "id": "barkan-classic-sauvignon-blanc-750ml",
+      "src": "/products/wine/barkan-classic-sauvignon-blanc-750ml.png",
+      "ids": [
+        "barkan-classic-sauvignon-blanc-750ml"
+      ],
+      "name": "Barkan Classic Sauvignon Blanc",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Barkan Classic Sauvignon Blanc, barkan-classic-sauvignon-blanc-750ml. BARKAN CLASSIC SAUVIGNON BLANC 2023, orange variety strip, black capsule, pale straw wine. Preserve exactly 2023; no other vintage.",
+      "output": "/optimized/products/barkan-classic-sauvignon-blanc-750ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 60724,
+      "transparentPixels": 730218,
+      "normalizedCrop": {
+        "left": 327,
+        "top": 0,
+        "width": 371,
+        "height": 1530
+      },
+      "generatedSourceTransparentPixels": 1101916
+    },
+    {
+      "id": "barkan-gold-gewurztraminer-750ml",
+      "src": "/products/wine/barkan-gold-gewurztraminer-750ml-2022.jpg",
+      "ids": [
+        "barkan-gold-gewurztraminer-750ml"
+      ],
+      "name": "Barkan Gold Edition Gewurztraminer",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Barkan Gold Edition Gewurztraminer, barkan-gold-gewurztraminer-750ml. BARKAN THE GOLD EDITION Gewurztraminer 2022, slender amber-green bottle, gold capsule, black/gold label. Retain original Hebrew line and 2022.",
+      "output": "/optimized/products/barkan-gold-gewurztraminer-750ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 41160,
+      "transparentPixels": 757886,
+      "normalizedCrop": {
+        "left": 345,
+        "top": 27,
+        "width": 337,
+        "height": 1481
+      },
+      "generatedSourceTransparentPixels": 1191417
+    },
+    {
+      "id": "barkan-classic-chardonnay-750ml",
+      "src": "/products/wine/barkan-classic-chardonnay-750ml.png",
+      "ids": [
+        "barkan-classic-chardonnay-750ml"
+      ],
+      "name": "Barkan Classic Chardonnay",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Barkan Classic Chardonnay, barkan-classic-chardonnay-750ml. BARKAN CLASSIC CHARDONNAY 2023, green variety strip, black capsule, green-gold glass. Keep 2023 exactly.",
+      "output": "/optimized/products/barkan-classic-chardonnay-750ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 64568,
+      "transparentPixels": 710802,
+      "normalizedCrop": {
+        "left": 294,
+        "top": 9,
+        "width": 437,
+        "height": 1517
+      },
+      "generatedSourceTransparentPixels": 1076427
+    },
+    {
+      "id": "barkan-gold-chardonnay-750ml",
+      "src": "/products/wine/barkan-gold-chardonnay-750ml.jpg",
+      "ids": [
+        "barkan-gold-chardonnay-750ml"
+      ],
+      "name": "Barkan Gold Edition Chardonnay",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Barkan Gold Edition Chardonnay, barkan-gold-chardonnay-750ml. BARKAN THE GOLD EDITION Chardonnay 2022. Retain short broad-shouldered green/gold bottle, gold capsule, black/gold label, original Hebrew and 2022.",
+      "output": "/optimized/products/barkan-gold-chardonnay-750ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 52734,
+      "transparentPixels": 718273,
+      "normalizedCrop": {
+        "left": 301,
+        "top": 4,
+        "width": 422,
+        "height": 1518
+      },
+      "generatedSourceTransparentPixels": 1092974
+    },
+    {
+      "id": "barkan-gold-edition-rose-750ml",
+      "src": "/products/wine/barkan-gold-edition-rose-750ml.jpg",
+      "ids": [
+        "barkan-gold-edition-rose-750ml"
+      ],
+      "name": "Barkan Gold Edition",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Barkan Gold Edition, barkan-gold-edition-rose-750ml. BARKAN RESERVE THE GOLD EDITION 2020 ROSE Alma Vineyard 11% Alc/Vol. Preserve long slender clear bottle, salmon-pink wine and gold capsule/labels exactly.",
+      "output": "/optimized/products/barkan-gold-edition-rose-750ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 52142,
+      "transparentPixels": 758093,
+      "normalizedCrop": {
+        "left": 351,
+        "top": 15,
+        "width": 330,
+        "height": 1480
+      },
+      "generatedSourceTransparentPixels": 1191416
+    },
+    {
+      "id": "glen-scott-honey-1l",
+      "src": "/images/IMG_0608.jpg",
+      "crop": {
+        "sourceWidth": 1290,
+        "sourceHeight": 1832,
+        "left": 811,
+        "top": 590,
+        "width": 267,
+        "height": 1000
+      },
+      "ids": [
+        "glen-scott-honey-1l"
+      ],
+      "name": "Glen Scott Honey",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Glen Scott Honey, glen-scott-honey-1l. Edit target is ONLY the TALL RIGHTMOST GLEN SCOTT HONEY bottle in this four-bottle poster, bounded approximately x811–1078 y590–1590 in source1290x1832. Label says GLEN SCOTT NATURAL HONEY FLAVORED WHISKY 1854 IMPORTED HONEY & SCOTCH. Keep this exact honey label, not the Imported label of neighboring bottles. Remove foreground small flask and poster, restoring only small hidden plain glass edge.",
+      "output": "/optimized/products/glen-scott-honey-1l.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 91624,
+      "transparentPixels": 720658,
+      "normalizedCrop": {
+        "left": 313,
+        "top": 17,
+        "width": 401,
+        "height": 1504
+      },
+      "generatedSourceTransparentPixels": 1107070
+    },
+    {
+      "id": "glen-scott-1854-imported-1l",
+      "src": "/products/whisky/glen-scott-1854-imported-1l.png",
+      "crop": {
+        "sourceWidth": 1000,
+        "sourceHeight": 1000,
+        "left": 382,
+        "top": 101,
+        "width": 238,
+        "height": 797
+      },
+      "ids": [
+        "glen-scott-1854-imported-1l",
+        "glen-scott-1854-imported-700ml"
+      ],
+      "name": "Glen Scott 1854 Imported",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Glen Scott 1854 Imported, glen-scott-1854-imported-1l. Single GLEN SCOTT 1854 IMPORTED 1 Litre, 40% Vol bottle in source. Preserve its original cap, lettering, light amber liquid and black/gold crest.",
+      "output": "/optimized/products/glen-scott-1854-imported-1l.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 83120,
+      "transparentPixels": 696304,
+      "normalizedCrop": {
+        "left": 304,
+        "top": 25,
+        "width": 418,
+        "height": 1456
+      },
+      "generatedSourceTransparentPixels": 1089589
+    },
+    {
+      "id": "glen-scott-1854-imported-175ml",
+      "src": "/images/IMG_0608.jpg",
+      "crop": {
+        "sourceWidth": 1290,
+        "sourceHeight": 1832,
+        "left": 679,
+        "top": 1141,
+        "width": 205,
+        "height": 507
+      },
+      "ids": [
+        "glen-scott-1854-imported-175ml"
+      ],
+      "name": "Glen Scott 1854 Imported",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Glen Scott 1854 Imported, glen-scott-1854-imported-175ml. ONLY the SMALL rectangular GLEN SCOTT IMPORTED flask foreground at x679–884 y1141–1648 in source1290x1832. Keep squat flask shape and black short screw cap, GLEN SCOTT BLENDED SCOTCH WHISKY 1854 IMPORTED label and dark lower label. Remove all other bottles, glass, poster. Do not turn this small flask into a tall bottle.",
+      "output": "/optimized/products/glen-scott-1854-imported-175ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 115844,
+      "transparentPixels": 558805,
+      "normalizedCrop": {
+        "left": 230,
+        "top": 108,
+        "width": 570,
+        "height": 1326
+      },
+      "generatedSourceTransparentPixels": 961804
+    },
+    {
+      "id": "arak-shalit-extra-750ml",
+      "src": "/products/arak/arak-shalit-extra-750ml.jpg",
+      "ids": [
+        "arak-shalit-extra-750ml"
+      ],
+      "name": "Arak Shalit Extra",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Arak Shalit Extra, arak-shalit-extra-750ml. ONLY the supplied old-label SHALIT ARRACK Extra clear tall bottle with BLACK cap, GREEN/WHITE Hebrew label. Preserve Hebrew ארק שליט and Extra SHALIT ARRACK; do not modernize to green cap. Remove white photo backdrop and paper/floor entirely.",
+      "output": "/optimized/products/arak-shalit-extra-750ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 77058,
+      "transparentPixels": 720372,
+      "normalizedCrop": {
+        "left": 325,
+        "top": 29,
+        "width": 380,
+        "height": 1478
+      },
+      "generatedSourceTransparentPixels": 1120100
+    },
+    {
+      "id": "arak-shalit-axsus-750ml",
+      "src": "/products/arak/arak-shalit-axsus-750ml.png",
+      "ids": [
+        "arak-shalit-axsus-750ml",
+        "arak-shalit-axsus-175ml"
+      ],
+      "name": "Arak Shalit Axsus",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Arak Shalit Axsus, arak-shalit-axsus-750ml. Tall sculpted ARAK SHALIT LICORICE bottle with bright GREEN screw cap, pale gold liquid and REAL brown licorice stick inside glass; keep the stick. Preserve LICORICE 37.5% shown on label, never change to40%.",
+      "output": "/optimized/products/arak-shalit-axsus-750ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 90476,
+      "transparentPixels": 738803,
+      "normalizedCrop": {
+        "left": 324,
+        "top": 21,
+        "width": 379,
+        "height": 1491
+      },
+      "generatedSourceTransparentPixels": 1148224
+    },
+    {
+      "id": "arak-shalit-fruit-750ml",
+      "src": "/images/IMG_0603.jpg",
+      "crop": {
+        "sourceWidth": 1285,
+        "sourceHeight": 1820,
+        "left": 946,
+        "top": 507,
+        "width": 263,
+        "height": 974
+      },
+      "ids": [
+        "arak-shalit-fruit-750ml"
+      ],
+      "name": "Arak Shalit Fruit",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Arak Shalit Fruit, arak-shalit-fruit-750ml. ONLY the FAR RIGHT orange passion-fruit ARAK SHALIT bottle, bounding x946–1209 y507–1481 of 1285x1820 poster. Orange opaque liquid, green cap, Hebrew שליט הפסיפלורה, Extra Fruit / Anis Mediterraneen label. Remove martini glass partially across lower left and other bottles. Restore plain glass edge only; preserve visible label and do not invent volume/strength.",
+      "output": "/optimized/products/arak-shalit-fruit-750ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 69116,
+      "transparentPixels": 731141,
+      "normalizedCrop": {
+        "left": 310,
+        "top": 21,
+        "width": 405,
+        "height": 1492
+      },
+      "generatedSourceTransparentPixels": 1131814
+    },
+    {
+      "id": "arak-shalit-extra-175ml",
+      "src": "/products/arak/arak-shalit-extra-175ml.png",
+      "ids": [
+        "arak-shalit-extra-175ml"
+      ],
+      "name": "Arak Shalit Extra",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Arak Shalit Extra, arak-shalit-extra-175ml. ONLY original SMALL 175ml rectangular clear ARAK SHALIT EXTRA bottle, short green screwcap. Preserve exact squat proportions, gold crown, green title, 175ml and37.5% Alc/vol as printed.",
+      "output": "/optimized/products/arak-shalit-extra-175ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 99000,
+      "transparentPixels": 592560,
+      "normalizedCrop": {
+        "left": 223,
+        "top": 26,
+        "width": 580,
+        "height": 1460
+      },
+      "generatedSourceTransparentPixels": 897701
+    },
+    {
+      "id": "arak-shalit-lemon-750ml",
+      "src": "/products/arak/arak-shalit-lemon-750ml.png",
+      "ids": [
+        "arak-shalit-lemon-750ml",
+        "arak-shalit-lemon-175ml"
+      ],
+      "name": "Arak Shalit Lemon",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Arak Shalit Lemon, arak-shalit-lemon-750ml. ONLY original pale opaque lemon-yellow Arak Shalit Lemon sculpted bottle, green cap and Hebrew lemon label with two lemons. Preserve original old label style, yellow hue, no substitute from poster.",
+      "output": "/optimized/products/arak-shalit-lemon-750ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 67154,
+      "transparentPixels": 729586,
+      "normalizedCrop": {
+        "left": 311,
+        "top": 25,
+        "width": 402,
+        "height": 1496
+      },
+      "generatedSourceTransparentPixels": 1128827
+    },
+    {
+      "id": "imperial-vodka-caramel-50cl",
+      "src": "/images/IMG_0610.jpg",
+      "crop": {
+        "sourceWidth": 1277,
+        "sourceHeight": 1839,
+        "left": 207,
+        "top": 635,
+        "width": 286,
+        "height": 885
+      },
+      "ids": [
+        "imperial-vodka-caramel-50cl",
+        "imperial-vodka-caramel-70cl"
+      ],
+      "name": "Imperial Vodka Caramel",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Imperial Vodka Caramel, imperial-vodka-caramel-50cl. ONLY the LEFT IMPERIAL VODKA CARAMEL bottle at x207–493 y635–1520 of1277x1839 source. Clear vodka, black cap, ornate IMPERIAL VODKA SINCE1982, brown caramel cubes and AMBER VODKA CARAMEL band, 50CL visible. Remove foreground small bottle, clouds overlapping cap, all scene. Restore only plain hidden glass edge.",
+      "output": "/optimized/products/imperial-vodka-caramel-50cl.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 105220,
+      "transparentPixels": 662777,
+      "normalizedCrop": {
+        "left": 277,
+        "top": 18,
+        "width": 470,
+        "height": 1503
+      },
+      "generatedSourceTransparentPixels": 988948
+    },
+    {
+      "id": "imperial-vodka-nature-50cl",
+      "src": "/images/IMG_0610.jpg",
+      "crop": {
+        "sourceWidth": 1277,
+        "sourceHeight": 1839,
+        "left": 510,
+        "top": 515,
+        "width": 310,
+        "height": 990
+      },
+      "ids": [
+        "imperial-vodka-nature-50cl",
+        "imperial-vodka-nature-70cl"
+      ],
+      "name": "Imperial Vodka Nature",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Imperial Vodka Nature, imperial-vodka-nature-50cl. ONLY the TALL CENTRAL IMPERIAL VODKA NATURE bottle at x510–820 y515–1505 of1277x1839 source poster. Clear vodka, black tall cap, ornate IMPERIAL VODKA SINCE1982, blue ice cubes and BLUE VODKA NATURE band. Remove small front flask, glass, lemon bottle and backdrop; restore hidden plain lower glass. Do not create another volume number.",
+      "output": "/optimized/products/imperial-vodka-nature-50cl.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 94346,
+      "transparentPixels": 673463,
+      "normalizedCrop": {
+        "left": 281,
+        "top": 6,
+        "width": 462,
+        "height": 1520
+      },
+      "generatedSourceTransparentPixels": 1002583
+    },
+    {
+      "id": "imperial-vodka-nature-175ml",
+      "src": "/images/IMG_0610.jpg",
+      "crop": {
+        "sourceWidth": 1277,
+        "sourceHeight": 1839,
+        "left": 389,
+        "top": 1065,
+        "width": 217,
+        "height": 524
+      },
+      "ids": [
+        "imperial-vodka-nature-175ml"
+      ],
+      "name": "Imperial Vodka Nature",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Imperial Vodka Nature, imperial-vodka-nature-175ml. ONLY SMALL IMPERIAL VODKA NATURE foreground flask x389–606 y1065–1589 of1277x1839 poster. Squat rectangular clear bottle, SHORT black screw cap, same ornate label, blue ice cubes and BLUE VODKA NATURE band. Preserve its visible175ml size text and exact small proportions, not tall central bottle.",
+      "correctionPrompt": "Use case: precise-object-edit. Edit target: this already retouched transparent Imperial Vodka Nature SMALL flask. Make exactly ONE correction in bottom-left label: replace the erroneous text '175CL' underneath 'Poids Net:' with the exact text '175 ml'. Lowercase m and l. This is a 175 milliliter flask, NOT 175 centiliters. Keep this correction legible. Preserve ALL other pixels, composition, bottle proportions, cap, logo, blue ice cubes, lettering, 37,5%, lighting and genuinely transparent background. No other alteration.",
+      "maskCorrectionPrompt": "Use case: background-extraction. Edit ONLY the transparency mask of this small Imperial Vodka Nature product image. Retain exactly the existing flask including its corrected printed text '175 ml', black screw cap, blue label, glass and lighting. Remove EVERY background pixel outside the bottle silhouette, including the detached black triangular patches near BOTH upper corners, the dark gray/black halo and all floating fragments. The entire surrounding canvas must have alpha=0. No opaque black backdrop, no detached specks, no checkerboard pixels, no painted white background, no shadow. Preserve the product silhouette with clean antialiased edges, full flask centered. It must composite cleanly onto a plain white website card. Do not redraw or change any label or wording. Output genuinely transparent PNG.",
+      "output": "/optimized/products/imperial-vodka-nature-175ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 116490,
+      "transparentPixels": 570800,
+      "normalizedCrop": {
+        "left": 213,
+        "top": 70,
+        "width": 598,
+        "height": 1426
+      },
+      "generatedSourceTransparentPixels": 883470
+    },
+    {
+      "id": "pastis-de-shalit-1l",
+      "src": "/images/IMG_0613.jpg",
+      "crop": {
+        "sourceWidth": 1284,
+        "sourceHeight": 1835,
+        "left": 646,
+        "top": 305,
+        "width": 300,
+        "height": 1075
+      },
+      "ids": [
+        "pastis-de-shalit-1l"
+      ],
+      "name": "Pastis",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Pastis, pastis-de-shalit-1l. ONLY TALL PASTIS DE SHALIT bottle x646–946 y305–1380 of1284x1835 poster. Green/brown glass, silver screw cap, navy/white PASTIS DE SHALIT label, red40% seal, Aperitif Anise. Remove cocktail glass in front. Keep source label; reconstruct only hidden plain glass and continuous label ornamental background, no invented microtext or volume.",
+      "output": "/optimized/products/pastis-de-shalit-1l.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 77464,
+      "transparentPixels": 714717,
+      "normalizedCrop": {
+        "left": 311,
+        "top": 19,
+        "width": 402,
+        "height": 1490
+      },
+      "generatedSourceTransparentPixels": 1105039
+    },
+    {
+      "id": "pastis-de-shalit-50cl",
+      "src": "/images/IMG_0613.jpg",
+      "crop": {
+        "sourceWidth": 1284,
+        "sourceHeight": 1835,
+        "left": 955,
+        "top": 533,
+        "width": 225,
+        "height": 838
+      },
+      "ids": [
+        "pastis-de-shalit-50cl",
+        "pastis-de-shalit-175ml"
+      ],
+      "name": "Pastis",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Pastis, pastis-de-shalit-50cl. ONLY RIGHTMOST small PASTIS DE SHALIT bottle x955–1180 y533–1371 of1284x1835 poster. Silver cap, dark green/brown glass, blue-white label, red40% and 0,5L near lower left. Preserve this half-liter bottle's proportions and 0,5L.",
+      "output": "/optimized/products/pastis-de-shalit-50cl.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 78218,
+      "transparentPixels": 712038,
+      "normalizedCrop": {
+        "left": 311,
+        "top": 18,
+        "width": 403,
+        "height": 1494
+      },
+      "generatedSourceTransparentPixels": 1095037
+    },
+    {
+      "id": "dry-gin-experience-1l",
+      "src": "/images/IMG_0613.jpg",
+      "crop": {
+        "sourceWidth": 1284,
+        "sourceHeight": 1835,
+        "left": 335,
+        "top": 379,
+        "width": 307,
+        "height": 991
+      },
+      "ids": [
+        "dry-gin-experience-1l"
+      ],
+      "name": "Dry Gin",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Dry Gin, dry-gin-experience-1l. ONLY TALL EXPERIENCE DRY GIN bottle x335–642 y379–1370 in1284x1835 poster. Distinct YELLOW tall screw cap, clear colorless liquid, embossed textured glass, rectangular YELLOW label with EXPERIENCE ORIGINAL PREMIUM DRY GIN Traditional DRY GIN Extra fine. Remove glass blocking lower right edge, restore plain glass only; preserve existing yellow/red label, no invented volume or strength.",
+      "output": "/optimized/products/dry-gin-experience-1l.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 90002,
+      "transparentPixels": 687907,
+      "normalizedCrop": {
+        "left": 296,
+        "top": 28,
+        "width": 433,
+        "height": 1479
+      },
+      "generatedSourceTransparentPixels": 1060118
+    },
+    {
+      "id": "dry-gin-experience-175ml",
+      "src": "/images/IMG_0613.jpg",
+      "crop": {
+        "sourceWidth": 1284,
+        "sourceHeight": 1835,
+        "left": 95,
+        "top": 805,
+        "width": 239,
+        "height": 563
+      },
+      "ids": [
+        "dry-gin-experience-175ml"
+      ],
+      "name": "Dry Gin",
+      "prompt": "Use case: background-extraction. Asset type: premium RUNI alcohol catalog packshot. Edit target: the supplied local photograph, not a new packaging design. Isolate the exact specified bottle/can. Produce one clean photorealistic product alone on a genuinely transparent background, portrait 1024x1536 canvas, upright vertical axis, centered, entire cap and base visible with about 5% top/bottom breathing space, product height about 90% canvas. Professional precise antialiased cutout, no white matte fringe or old backdrop visible through clear glass. Improve optical clarity, reduce compression/noise and harsh glare, balance studio lighting while retaining real material texture and natural original liquid color. Preserve exactly the silhouette, proportions, cap, logos, label layout, every visible word and numeral, packaging variant and existing viewing angle. No redesign, no invented label text, no changes to brand/alcohol strength/volume/vintage. Remove only surrounding scene, posters, unrelated bottles, glasses, hands and accessories; if an object occludes a tiny area of glass restore plain glass naturally, do not invent readable obscured label details. No added lettering, props, cast shadow, reflection floor, watermark, frame or background.\nExact subject: Dry Gin, dry-gin-experience-175ml. ONLY SMALL foreground EXPERIENCE DRY GIN flask x95–334 y805–1368 of1284x1835 poster. Squat clear rectangular bottle with SHORT BLACK screw cap, yellow/red EXPERIENCE ORIGINAL PREMIUM DRY GIN Traditional DRY GIN Extra fine label. Keep small flask proportions, no invented numbers, no replacement with tall yellow-capped bottle.",
+      "output": "/optimized/products/dry-gin-experience-175ml.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 108912,
+      "transparentPixels": 569954,
+      "normalizedCrop": {
+        "left": 228,
+        "top": 89,
+        "width": 567,
+        "height": 1363
+      },
+      "generatedSourceTransparentPixels": 940026
+    }
+  ],
+  "categories": [
+    {
+      "id": "wine",
+      "source": "/category-images/wine.jpg",
+      "prompt": "Use case: compositing. Asset type: premium RUNI website category photograph, one LANDSCAPE 1920x1080 image. Edit the supplied alcohol campaign photograph into a clean professional wide composition, keeping the exact same brands and photographed products, packaging shapes, caps, label designs and visible lettering. Use the original atmospheric color palette and real materials; remove compression/noise, refine lighting and reflections, retain natural photographic texture. Recompose ONLY the products/accessories already in the photo, no invented bottles. Keep the whole product group centered entirely within middle45% width and middle80% height so bottles are not cropped in either a wide banner or a narrow card. Leave softly lit atmospheric negative space on both sides, coherent tabletop and premium realistic background. Remove the old floating headline/logo from the poster outside the bottles because the website supplies category titles; keep all logos/text printed on bottles and cans unchanged. No added headlines, watermarks or lettering. No transparency.\nSpecific scene: Keep the same FOUR Barkan bottles: Classic Shiraz black/red, Reserve Cabernet black/red, Platinum Cabernet black/silver, Gold Edition Rosé clear/gold (original pale rosé). Same TWO grape bunches on wood tabletop, vineyard at golden hour behind, full bottle group centered. Remove floating BARKAN headline only, retain printed labels.",
+      "output": "/optimized/categories/wine.webp",
+      "bytes": 292648,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "beer",
+      "source": "/category-images/beer.jpg",
+      "prompt": "Use case: compositing. Asset type: premium RUNI website category photograph, one LANDSCAPE 1920x1080 image. Edit the supplied alcohol campaign photograph into a clean professional wide composition, keeping the exact same brands and photographed products, packaging shapes, caps, label designs and visible lettering. Use the original atmospheric color palette and real materials; remove compression/noise, refine lighting and reflections, retain natural photographic texture. Recompose ONLY the products/accessories already in the photo, no invented bottles. Keep the whole product group centered entirely within middle45% width and middle80% height so bottles are not cropped in either a wide banner or a narrow card. Leave softly lit atmospheric negative space on both sides, coherent tabletop and premium realistic background. Remove the old floating headline/logo from the poster outside the bottles because the website supplies category titles; keep all logos/text printed on bottles and cans unchanged. No added headlines, watermarks or lettering. No transparency.\nSpecific scene: Keep the existing TWO green Heineken bottles and THREE silver/green Heineken cans in the condensation-covered ice bucket, on deep forest green background. Preserve red stars and printed beer labels. Full metal bucket visible, no floating headline.",
+      "output": "/optimized/categories/beer.webp",
+      "bytes": 169964,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "whisky",
+      "source": "/category-images/whisky.jpg",
+      "prompt": "Use case: compositing. Asset type: premium RUNI website category photograph, one LANDSCAPE 1920x1080 image. Edit the supplied alcohol campaign photograph into a clean professional wide composition, keeping the exact same brands and photographed products, packaging shapes, caps, label designs and visible lettering. Use the original atmospheric color palette and real materials; remove compression/noise, refine lighting and reflections, retain natural photographic texture. Recompose ONLY the products/accessories already in the photo, no invented bottles. Keep the whole product group centered entirely within middle45% width and middle80% height so bottles are not cropped in either a wide banner or a narrow card. Leave softly lit atmospheric negative space on both sides, coherent tabletop and premium realistic background. Remove the old floating headline/logo from the poster outside the bottles because the website supplies category titles; keep all logos/text printed on bottles and cans unchanged. No added headlines, watermarks or lettering. No transparency.\nSpecific scene: Keep THREE tall Glen Scott bottles plus ONE small flask and the whisky glass from source, on warm brown textured background and tabletop. Honey bottle stays right, Imported bottles left/center. Preserve cream labels, black/gold crests and amber whisky. Full group centered; remove floating title.",
+      "output": "/optimized/categories/whisky.webp",
+      "bytes": 210038,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "arak",
+      "source": "/category-images/arak.jpg",
+      "prompt": "Use case: compositing. Asset type: premium RUNI website category photograph, one LANDSCAPE 1920x1080 image. Edit the supplied alcohol campaign photograph into a clean professional wide composition, keeping the exact same brands and photographed products, packaging shapes, caps, label designs and visible lettering. Use the original atmospheric color palette and real materials; remove compression/noise, refine lighting and reflections, retain natural photographic texture. Recompose ONLY the products/accessories already in the photo, no invented bottles. Keep the whole product group centered entirely within middle45% width and middle80% height so bottles are not cropped in either a wide banner or a narrow card. Leave softly lit atmospheric negative space on both sides, coherent tabletop and premium realistic background. Remove the old floating headline/logo from the poster outside the bottles because the website supplies category titles; keep all logos/text printed on bottles and cans unchanged. No added headlines, watermarks or lettering. No transparency.\nSpecific scene: Keep FOUR sculpted green-capped Arak Shalit bottles in original order (lemon pale yellow, Axsus brown, Extra clear, passion orange) and TWO cocktail glasses with original garnishes on wooden bar, warm dark bokeh. No extra bottles, no change to labels or liquid colors. Full group centered; remove floating les flavors text.",
+      "output": "/optimized/categories/arak.webp",
+      "bytes": 242772,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "vodka",
+      "source": "/category-images/vodka.jpg",
+      "prompt": "Use case: compositing. Asset type: premium RUNI website category photograph, one LANDSCAPE 1920x1080 image. Edit the supplied alcohol campaign photograph into a clean professional wide composition, keeping the exact same brands and photographed products, packaging shapes, caps, label designs and visible lettering. Use the original atmospheric color palette and real materials; remove compression/noise, refine lighting and reflections, retain natural photographic texture. Recompose ONLY the products/accessories already in the photo, no invented bottles. Keep the whole product group centered entirely within middle45% width and middle80% height so bottles are not cropped in either a wide banner or a narrow card. Leave softly lit atmospheric negative space on both sides, coherent tabletop and premium realistic background. Remove the old floating headline/logo from the poster outside the bottles because the website supplies category titles; keep all logos/text printed on bottles and cans unchanged. No added headlines, watermarks or lettering. No transparency.\nSpecific scene: Keep the same THREE tall Imperial Vodka bottles (caramel left, Nature center, lemon right), ONE small Nature flask and one iced glass. Same blue/green/gold liquid splash background, clean refined photographic water, pale blue surface. Preserve packaging and distinct flavor artwork. Full group centered. Remove only floating Imperial logo/headline, no extra text.",
+      "output": "/optimized/categories/vodka.webp",
+      "bytes": 305552,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "spirits",
+      "source": "/category-images/spirits.jpg",
+      "prompt": "Use case: compositing. Asset type: premium RUNI website category photograph, one LANDSCAPE 1920x1080 image. Edit the supplied alcohol campaign photograph into a clean professional wide composition, keeping the exact same brands and photographed products, packaging shapes, caps, label designs and visible lettering. Use the original atmospheric color palette and real materials; remove compression/noise, refine lighting and reflections, retain natural photographic texture. Recompose ONLY the products/accessories already in the photo, no invented bottles. Keep the whole product group centered entirely within middle45% width and middle80% height so bottles are not cropped in either a wide banner or a narrow card. Leave softly lit atmospheric negative space on both sides, coherent tabletop and premium realistic background. Remove the old floating headline/logo from the poster outside the bottles because the website supplies category titles; keep all logos/text printed on bottles and cans unchanged. No added headlines, watermarks or lettering. No transparency.\nSpecific scene: Keep original FOUR bottles: small black-capped Experience Dry Gin at left, tall yellow-capped Experience Dry Gin, tall Pastis de Shalit40%, smaller half-liter Pastis at right; ONE stemmed yellow pastis glass in front. Original warm bar bokeh and wood table. Refine glass/light/labels, full group centered.",
+      "output": "/optimized/categories/spirits.webp",
+      "bytes": 215974,
+      "width": 1600,
+      "height": 900
+    }
+  ],
+  "summary": {
+    "packshots": 31,
+    "categoryImages": 6,
+    "illustratedProductCards": 37,
+    "uniqueSourceBytes": 20054775,
+    "outputBytes": 4342646,
+    "reductionPercent": 78
+  }
+}

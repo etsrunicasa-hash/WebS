@@ -40,7 +40,7 @@ export default async function HomePage({ params }: HomePageProps) {
 
   return (
     <>
-      <Hero dictionary={dictionary} />
+      <Hero dictionary={dictionary} locale={locale} />
       <CatalogPreviewSection dictionary={dictionary} locale={locale} />
       <Disclaimer dictionary={dictionary} />
     </>

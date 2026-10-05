@@ -1,64 +1,34 @@
-import Image from "next/image";
+import { BrandCarousel } from "@/components/home/BrandCarousel";
+import type { Locale } from "@/lib/i18n";
 
-import { homeCarouselImages } from "@/lib/catalog";
+import { getHomeCarouselBrands } from "@/lib/catalog";
 import type { Dictionary } from "@/messages/fr";
 
 type HeroProps = {
   dictionary: Dictionary;
+  locale: Locale;
 };
 
-const carouselImages = [...homeCarouselImages, ...homeCarouselImages];
-
-export function Hero({ dictionary }: HeroProps) {
+export function Hero({ dictionary, locale }: HeroProps) {
   return (
-    <section className="pt-12 sm:pt-16 lg:pt-20">
+    <section className="pt-16 sm:pt-20 lg:pt-24">
       <div className="container-shell">
         <div className="mx-auto max-w-4xl text-center">
-          <div className="relative mx-auto mb-7 h-[12.5rem] w-[10.125rem] overflow-hidden sm:mb-8 sm:h-[15rem] sm:w-[12.125rem] lg:h-[18rem] lg:w-[14.625rem]">
-            <Image
-              alt={dictionary.imageAlts.logo}
-              className="object-contain"
-              fill
-              priority
-              sizes="(max-width: 640px) 162px, (max-width: 1024px) 194px, 234px"
-              src="/Runi_Logo_Cropped.png"
-            />
-          </div>
           <p className="section-eyebrow">{dictionary.home.hero.eyebrow}</p>
-          <h1 className="mt-4 font-serif text-[clamp(3.3rem,13vw,7.5rem)] leading-[0.9] tracking-[-0.065em] text-ink sm:mt-5">
+          <h1 className="mt-5 text-balance font-serif text-[clamp(3.25rem,10vw,6.5rem)] leading-[1.02] tracking-[-0.045em] text-ink sm:mt-6">
             {dictionary.home.hero.title}
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-ink-muted sm:mt-6 sm:text-lg sm:leading-8">
+          <p className="mx-auto mt-5 max-w-xl text-balance text-base leading-7 text-ink-muted sm:mt-6 sm:text-lg sm:leading-8">
             {dictionary.home.hero.description}
           </p>
         </div>
       </div>
 
-      <div
-        aria-label={dictionary.home.hero.collageCaption}
-        className="group mt-10 overflow-hidden border-y border-line bg-white/40 sm:mt-14"
-      >
-        <div className="flex w-max motion-reduce:animate-none motion-reduce:[transform:none] group-hover:[animation-play-state:paused] [animation:runi-carousel_52s_linear_infinite]">
-          {carouselImages.map((src, index) => (
-            <figure
-              className="h-[15rem] w-[82vw] shrink-0 bg-white/55 sm:h-[24rem] sm:w-[25rem] lg:h-[28rem] lg:w-[30rem]"
-              key={`${src}-${index}`}
-            >
-              <div className="relative h-full w-full">
-                <Image
-                  alt=""
-                  aria-hidden="true"
-                  className="object-contain"
-                  fill
-                  priority={index < homeCarouselImages.length}
-                  sizes="(max-width: 640px) 82vw, (max-width: 1024px) 400px, 480px"
-                  src={src}
-                />
-              </div>
-            </figure>
-          ))}
-        </div>
-      </div>
+      <BrandCarousel
+        brands={getHomeCarouselBrands(dictionary)}
+        labels={dictionary.home.brands}
+        locale={locale}
+      />
 
       <div className="container-shell">
         <section className="mx-auto max-w-3xl py-12 text-center sm:py-16">
@@ -79,7 +49,6 @@ export function Hero({ dictionary }: HeroProps) {
             ))}
           </div>
         </section>
-
       </div>
     </section>
   );

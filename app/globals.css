@@ -137,3 +137,65 @@ img {
     transform: translateX(-50%);
   }
 }
+
+/* A quiet product shelf: equal portrait frames, native touch and keyboard scroll. */
+.brand-showcase {
+  padding-block: clamp(1.5rem, 3vw, 2.5rem);
+  background: oklch(0.987 0.006 155);
+  border-block: 1px solid oklch(0.91 0.008 155);
+}
+
+.brand-track {
+  display: flex;
+  gap: clamp(1rem, 2vw, 1.75rem);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: oklch(0.79 0.025 155) transparent;
+  padding: 4px 4px 20px;
+  margin: -4px;
+  list-style: none;
+}
+
+.brand-slide {
+  flex: 0 0 160px;
+  scroll-snap-align: start;
+}
+
+.brand-image {
+  position: relative;
+  aspect-ratio: 2 / 3;
+  background: oklch(0.963 0.009 155);
+  border-radius: 3px;
+}
+
+.brand-arrow {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  color: var(--ink);
+  border: 1px solid oklch(0.85 0.015 155);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.brand-arrow:hover:not(:disabled) {
+  background: oklch(0.94 0.015 155);
+  border-color: var(--brand-secondary);
+}
+
+.brand-arrow:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+@media (min-width: 640px) {
+  .brand-slide { flex-basis: 200px; }
+}
+
+@media (min-width: 1024px) {
+  .brand-slide { flex-basis: 220px; }
+}

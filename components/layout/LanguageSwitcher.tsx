@@ -22,7 +22,7 @@ export function LanguageSwitcher({ locale, label }: LanguageSwitcherProps) {
   return (
     <div
       aria-label={label}
-      className="inline-flex items-center rounded-md border border-white/50 bg-white/60 p-1 shadow-[0_18px_40px_rgba(17,24,20,0.06)] backdrop-blur-xl"
+      className="inline-flex items-center rounded-md border border-line bg-canvas p-1"
       role="group"
     >
       {languageOptions.map((entry) => {

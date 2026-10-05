@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import { ProductImage } from "@/components/catalog/ProductImage";
 import type { Dictionary } from "@/messages/fr";
 
 type Category = Dictionary["catalog"]["categories"][number];
@@ -75,11 +76,11 @@ export function CatalogSection({
               </div>
             </div>
 
-            <div className="relative min-h-[12rem] border-t border-line bg-[#f0efe9] sm:min-h-[16rem] md:border-t-0 md:border-l">
+            <div className="relative aspect-video border-t border-line bg-[#f0efe9] md:border-t-0 md:border-l">
               <Image
                 alt=""
                 aria-hidden="true"
-                className="object-cover object-center"
+                className="object-contain object-center"
                 fill
                 sizes="(max-width: 768px) 100vw, 58vw"
                 src={imageSrc}
@@ -116,11 +117,8 @@ export function CatalogSection({
                       <div className="relative mb-4 flex min-h-[13rem] items-end justify-center overflow-hidden rounded-sm border border-black/6 bg-[linear-gradient(180deg,rgba(255,255,255,0.85),rgba(240,244,236,0.7))] p-4 sm:mb-5 sm:min-h-[15rem]">
                         <div className="absolute inset-x-10 bottom-5 h-4 rounded-full bg-[radial-gradient(circle,rgba(17,24,20,0.22),rgba(17,24,20,0))]" />
                         {item.imageSrc ? (
-                          <Image
+                          <ProductImage
                             alt={item.imageAlt || item.name}
-                            className="relative z-10 object-contain p-3 drop-shadow-[0_18px_20px_rgba(17,24,20,0.18)] sm:p-4"
-                            fill
-                            sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
                             src={item.imageSrc}
                           />
                         ) : (
